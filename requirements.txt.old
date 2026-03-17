@@ -1,0 +1,8 @@
+pandas
+requests
+vaderSentiment
+feedparser
+streamlit
+plotly
+folium
+streamlit-folium
