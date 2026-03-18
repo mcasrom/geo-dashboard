@@ -6,8 +6,12 @@ import os
 import yfinance as yf
 import sqlite3
 import warnings
+import logging
 
+# SILENCIAR LOGS DE YFINANCE Y AVISOS
+logging.getLogger('yfinance').setLevel(logging.CRITICAL)
 warnings.simplefilter(action='ignore', category=FutureWarning)
+
 DB_PATH = "/home/dietpi/geopol_dashboard/data/geopol.db"
 
 SOURCES = {
@@ -35,46 +39,40 @@ SOURCES = {
     'TOLOnews (Afganistán)': 'https://tolonews.com/rss/world'
 }
 
-# Lógica de Impacto Ponderado
 def get_impact_score(text, sentiment):
     text = text.lower()
     score = abs(sentiment) * 10
-    weights = {
-        'nuclear': 8, 'war': 7, 'attack': 6, 'missile': 6, 
-        'sanctions': 4, 'brics': 3, 'treaty': 3, 'summit': 2,
-        'election': 2, 'oil': 4, 'gas': 4, 'dollar': 3
-    }
+    weights = {'nuclear': 8, 'war': 7, 'attack': 6, 'missile': 6, 'sanctions': 4, 'oil': 4, 'gas': 4}
     for word, weight in weights.items():
-        if word in text:
-            score += weight
+        if word in text: score += weight
     return round(score, 1)
 
 def analyze_narrative(text):
     text = text.lower()
-    if any(x in text for x in ['nato', 'biden', 'sanctions', 'aggression']): return "Pro-Occidente / Anti-Rusia"
-    if any(x in text for x in ['imperialism', 'hegemony', 'resistance', 'genocide']): return "Anti-Occidente / Soberanista"
-    if any(x in text for x in ['multipolar', 'brics', 'de-dollarization', 'global south']): return "Multipolarismo"
-    if any(x in text for x in ['nuclear', 'missile', 'strike', 'war', 'frontline']): return "Escalada Militar"
+    if any(x in text for x in ['nato', 'biden', 'sanctions']): return "Pro-Occidente / Anti-Rusia"
+    if any(x in text for x in ['imperialism', 'hegemony', 'resistance']): return "Anti-Occidente / Soberanista"
+    if any(x in text for x in ['multipolar', 'brics', 'global south']): return "Multipolarismo"
+    if any(x in text for x in ['nuclear', 'war', 'strike']): return "Escalada Militar"
     return "Informativo Global"
 
 def run():
     os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
     
-    # Persistencia de mercados
+    # PERSISTENCIA MEJORADA (Búsqueda de últimos valores reales)
     brent, vix, dxy = 82.0, 15.0, 103.5
     try:
         conn = sqlite3.connect(DB_PATH)
-        for col, var in [('brent', 'brent'), ('vix', 'vix'), ('dxy', 'dxy')]:
+        for col in ['brent', 'vix', 'dxy']:
             res = conn.execute(f"SELECT {col} FROM SITREP WHERE {col} > 0 ORDER BY date DESC LIMIT 1").fetchone()
             if res:
-                if var == 'brent': brent = res[0]
-                elif var == 'vix': vix = res[0]
-                elif var == 'dxy': dxy = res[0]
+                if col == 'brent': brent = res[0]
+                elif col == 'vix': vix = res[0]
+                elif col == 'dxy': dxy = res[0]
         conn.close()
     except: pass
 
-    # Update Mercados
-    assets = {"BZ=F": "brent", "^VIX": "vix", "DX-Y.NYB": "dxy"}
+    # TICKERS ACTUALIZADOS: DX=F es más estable que DX-Y.NYB
+    assets = {"BZ=F": "brent", "^VIX": "vix", "DX=F": "dxy"}
     for ticker, name in assets.items():
         try:
             m_data = yf.download(ticker, period="5d", interval="1d", progress=False)
@@ -112,16 +110,14 @@ def run():
         conn = sqlite3.connect(DB_PATH)
         try:
             df_old = pd.read_sql("SELECT * FROM SITREP", conn)
-            # Mantenemos 5000 registros para no saturar RAM de la Odroid
             pd.concat([df_old, df_new]).drop_duplicates(subset=['titulo']).tail(5000).to_sql("SITREP", conn, if_exists="replace", index=False)
-            # OPTIMIZACIÓN SD: Limpieza física de la DB
             conn.execute("VACUUM")
         except:
             df_new.to_sql("SITREP", conn, if_exists="replace", index=False)
         
         pd.DataFrame([{'last_run': datetime.now().strftime("%Y-%m-%d %H:%M:%S")}]).to_sql("METADATA", conn, if_exists="replace", index=False)
         conn.close()
-        print(f"SITREP V6 OK: Brent ${brent:.2f} | VIX {vix:.2f} | DXY {dxy:.2f}")
+        print(f"SITREP OK: Brent ${brent:.2f} | VIX {vix:.2f} | DXY {dxy:.2f}")
 
 if __name__ == "__main__":
     run()
