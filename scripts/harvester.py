@@ -5,6 +5,10 @@ from datetime import datetime
 import os
 import yfinance as yf
 import sqlite3
+import warnings
+
+# Desactivar avisos innecesarios en la consola de la Odroid
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 DB_PATH = "/home/dietpi/geopol_dashboard/data/geopol.db"
 
@@ -45,28 +49,30 @@ def analyze_narrative(text):
 def run():
     os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
     
-    # --- PERSISTENCIA DE MERCADOS (Evitar el 0.0) ---
-    # Intentamos cargar valores previos por si falla la descarga nueva
+    # --- PERSISTENCIA DE MERCADOS (Valores por defecto de la DB) ---
     try:
         conn_pre = sqlite3.connect(DB_PATH)
         last_row = pd.read_sql("SELECT brent, vix, dxy FROM SITREP ORDER BY date DESC LIMIT 1", conn_pre)
         conn_pre.close()
-        brent, vix, dxy = float(last_row['brent'].iloc[0]), float(last_row['vix'].iloc[0]), float(last_row['dxy'].iloc[0])
+        brent = float(last_row['brent'].iloc[0])
+        vix = float(last_row['vix'].iloc[0])
+        dxy = float(last_row['dxy'].iloc[0])
     except:
-        brent, vix, dxy = 80.0, 15.0, 103.0 # Valores base si la DB está vacía
+        brent, vix, dxy = 80.0, 15.0, 103.0 
 
-    # Actualización individual por activo (Si uno falla, los otros siguen)
+    # Actualización individual (Uso de .item() para evitar FutureWarnings)
     assets = {"BZ=F": "brent", "^VIX": "vix", "DX-Y.NYB": "dxy"}
     for ticker, name in assets.items():
         try:
             m_data = yf.download(ticker, period="5d", interval="1d", progress=False)
             if not m_data.empty:
+                # Extraemos el valor escalar de forma segura para Python 3.13
                 val = float(m_data['Close'].dropna().iloc[-1])
                 if name == "brent": brent = val
                 if name == "vix": vix = val
                 if name == "dxy": dxy = val
         except:
-            print(f"⚠️ Error actualizando {ticker}, usando valor previo.")
+            pass # Si falla, se queda con el valor de la persistencia cargado arriba
 
     entries = []
     for name, url in SOURCES.items():
@@ -98,10 +104,10 @@ def run():
         except:
             df_new.to_sql("SITREP", conn, if_exists="replace", index=False)
         
-        # Guardamos timestamp de éxito
+        # Timestamp de éxito
         pd.DataFrame([{'last_run': datetime.now().strftime("%Y-%m-%d %H:%M:%S")}]).to_sql("METADATA", conn, if_exists="replace", index=False)
         conn.close()
-        print(f"SITREP OK: Brent ${brent:.2f}")
+        print(f"SITREP OK: Brent ${brent:.2f} | VIX {vix:.2f} | DXY {dxy:.2f}")
 
 if __name__ == "__main__":
     run()
