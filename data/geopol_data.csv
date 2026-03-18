@@ -1,196 +1,301 @@
-date,bloque,title,tema,sentiment_score,impacto,fuente,titulo,narrativa
-2026-03-17 20:33:48,Occidente_USA,"Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course'",Conflicto Medio Oriente,-0.6597,,,,
-2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,‘US distraction in the Middle East is in China’s interest’,
-2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,"Israel bombs central Beirut, killing 6, strafes south, east Lebanon",
-2026-03-18 09:03:50,BRICS+,,Conflicto,-0.5,8.0,Al Jazeera,Iran war: What is happening on day 19 of US-Israel attacks?,
-2026-03-18 09:03:50,BRICS+,,Conflicto,-0.5,3.0,Al Jazeera,Iran launches ‘revenge’ missile attack on Israel after assassinations,
-2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,3.0,Al Jazeera,Israeli air strike flattens residential building in Beirut,
-2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,"Qatar can keep goods flowing amid tensions, customs chief says",
-2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,8.0,Al Jazeera,"Iran fires missiles, drones across Gulf, region remains in war crosshairs",
-2026-03-18 09:03:50,OTAN/G7,,Economía,0.1,3.0,Al Jazeera,"Venezuela defeat USA, win first World Baseball Classic championship",
-2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Cuba restores power after 29-hour blackout amid US oil blockade,
-2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,8.0,Al Jazeera,Trump confirms meeting with China’s Xi Jinping delayed as war on Iran rages,
-2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Actor Sean Penn gifted a special ‘Oscar’ by Ukraine’s railway company,
-2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Trump administration defends Anthropic blacklisting in US court,
-2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Araghchi: Iran’s system holds despite targeted leaders,
-2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,8.0,Al Jazeera,‘This is America’s war’: Iran’s Foreign Minister Araghchi,
-2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Killing of Larijani will not destabilise Iranian political system: Minister,
-2026-03-18 09:03:50,BRICS+,,Conflicto,-0.5,3.0,Al Jazeera,Drone attacks hit near US embassy in Baghdad,
-2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Experts discuss ‘Israeli strategy’ in killing of senior Iran official Ali L,
-2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,"‘We’ll be doing something with Cuba very soon’, Trump says",
-2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,"Iran allowing more ships through Strait of Hormuz, data suggest",
-2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Ukraine sends 201 military experts to counter Iranian drones in the Gulf,
-2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Xi Jinping’s anticorruption drive sweeps up senior Chinese military chiefs,
-2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,"Who is Joe Kent, and why did he resign as Trump’s counterterrorism chief?",
-2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,8.0,Al Jazeera,"Larijani’s warning to US, Israel before his killing",
-2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Burning debris from missile interceptions showers Dubai,
-2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,8.0,Al Jazeera,"Iran war live: Tehran mourns Larijani, Soleimani; 2 killed in Israel",
-2026-03-18 09:17:06,MENA/Irán,,Militar,0.1149999999999999,6.1,Occidente (BBC),"Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course'",Eje de Resistencia (Irán)
-2026-03-18 09:17:06,MENA/Irán,,Diplomacia,0.4166666666666667,9.2,Occidente (BBC),Death of Ali Larijani deepens crisis at heart of Iran's leadership,Eje de Resistencia (Irán)
-2026-03-18 09:17:06,MENA/Irán,,Diplomacia,0.0,5.0,Occidente (BBC),Total repression and air strikes bring unrelenting dread for Iranians,Eje de Resistencia (Irán)
-2026-03-18 09:17:06,Eurasia,,Diplomacia,0.0,5.0,Occidente (BBC),Spanish king reopens debate on conquest of Mexico by acknowledging 'abuse',Neutral / Global
-2026-03-18 09:17:06,Global South,,Diplomacia,0.0249999999999999,2.2,Occidente (BBC),"Air strike hit Kabul rehab centre as patients ate dinner, survivor tells BBC",Neutral / Global
-2026-03-18 09:17:06,Global South,,Diplomacia,-0.1166666666666666,3.2,Occidente (BBC),Chile's president begins building border barrier less than week into term,Neutral / Global
-2026-03-18 09:17:06,Global South,,Diplomacia,0.1,3.0,Occidente (BBC),India's cheap weight-loss drugs could reshape global obesity fight,Neutral / Global
-2026-03-18 09:17:06,Occidente,,Militar,0.0,5.0,Occidente (BBC),Italy warns Russian tanker could explode in Mediterranean at any time,Neutral / Global
-2026-03-18 09:17:06,Global South,,Diplomacia,0.05,2.5,Occidente (BBC),US Attorney General Bondi formally summoned to Congress in Epstein case,Neutral / Global
-2026-03-18 09:17:06,Occidente,,Diplomacia,0.0,5.0,Occidente (BBC),Water supply cut in Moldova after oil spill blamed on Russian strike in Ukraine,Neutral / Global
-2026-03-18 09:17:06,Global South,,Diplomacia,-0.3,5.0,Occidente (BBC),Pakistan air strike kills at least 100 at Kabul drug rehab centre,Neutral / Global
-2026-03-18 09:17:06,Global South,,Diplomacia,0.7,9.0,Occidente (BBC),And the burger goes to... Michael B Jordan marks Oscars win at In-N-Out,Neutral / Global
-2026-03-18 09:17:06,Global South,,Diplomacia,-0.5,7.0,Occidente (BBC),Utah mother who wrote book about grief found guilty of poisoning husband,Neutral / Global
-2026-03-18 09:17:06,Global South,,Diplomacia,0.1333333333333333,3.3,Occidente (BBC),"Aspiring female Zambian politicians were asked for sexual favours, official says",Neutral / Global
-2026-03-18 09:17:06,Global South,,Diplomacia,0.1666666666666666,3.7,Occidente (BBC),Sri Lanka declares Wednesdays off as Asian countries try to conserve fuel,Neutral / Global
-2026-03-18 09:17:06,MENA/Irán,,Diplomacia,0.1,6.0,Occidente (BBC),Iranian security chief Ali Larijani killed in air strike,Eje de Resistencia (Irán)
-2026-03-18 09:17:06,Eurasia,,Diplomacia,0.0,5.0,Occidente (BBC),What have US allies and China said about sending ships to the Strait of Hormuz?,Pro-China
-2026-03-18 09:17:06,MENA/Irán,,Militar,0.0833333333333333,5.8,Occidente (BBC),Surge in US gas prices deepens political peril for Trump over Iran,Eje de Resistencia (Irán)
-2026-03-18 09:17:06,MENA/Irán,,Militar,0.0,5.0,Occidente (BBC),Will the Iran war squeeze India's piped gas next?,Eje de Resistencia (Irán)
-2026-03-18 09:17:06,Global South,,Militar,0.1499999999999999,3.5,Occidente (BBC),'Fire came from the sky and burned them' - life on the brink of civil war in South Sudan,Neutral / Global
-2026-03-18 09:17:06,Occidente,,Militar,-0.0733333333333333,5.7,Occidente (BBC),Wary allies show there's no quick fix to Trump's Iran crisis,Eje de Resistencia (Irán)
-2026-03-18 09:17:06,MENA/Irán,,Diplomacia,-0.1333333333333333,6.3,Occidente (BBC),"'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",Neutral / Global
-2026-03-18 09:17:06,MENA/Irán,,Diplomacia,0.1363636363636363,6.4,Occidente (BBC),"Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",Eje de Resistencia (Irán)
-2026-03-18 09:17:06,MENA/Irán,,Diplomacia,0.0,5.0,Occidente (BBC),Why did only two Iranian football players stay in Australia?,Eje de Resistencia (Irán)
-2026-03-18 09:17:06,Occidente,,Diplomacia,0.25,7.5,Occidente (BBC),Watch: Reunion resident gets close to lava from erupting volcano,Neutral / Global
-2026-03-18 09:17:06,Global South,,Militar,0.0399999999999999,2.4,Occidente (BBC),"Historic firsts, emotional speeches, and a tie: Watch the top Oscars moments",Neutral / Global
-2026-03-18 09:17:06,Eurasia,,Diplomacia,0.2,7.0,Occidente (BBC),Mexico City breaks Guinness Record with giant football training session,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0027777777777777,5.0,Rusia (TASS/Mirror),"Russia’s first robotic, unmanned systems test center opens in Moscow",Neutral / Global
-2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.375,8.8,Rusia (TASS/Mirror),Tehran interested in peace proposals involving damage compensation — top diplomat,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Occidente,,Militar,-0.175,6.8,Rusia (TASS/Mirror),Ukraine’s military attacks Russia’s Belgorod Region with over 80 UAVs in past day,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.3,8.0,Rusia (TASS/Mirror),Mercedes-Benz registers 'Mercedes-Benz' trademark in Russia,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Moscow Polytechnic University develops unmanned copter parts for mass production,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0833333333333333,5.8,Rusia (TASS/Mirror),Russian stocks up as main trading session opens,Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),Iraq has resumed oil exports through Turkish port of Ceyhan — agency,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Militar,0.05,5.5,Rusia (TASS/Mirror),IN BRIEF: Iran’s Bushehr Nuclear Power Plant comes under attack,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.25,7.5,Rusia (TASS/Mirror),Russian Pacific Fleet ships depart from Indian port of Visakhapatnam,Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,-0.3,5.0,Rusia (TASS/Mirror),MOEX Index up as morning trading session opens,Neutral / Global
-2026-03-18 09:17:07,MENA/Irán,,Militar,0.0,5.0,Rusia (TASS/Mirror),Iran to revise rules for vessels passing through Strait of Hormuz after war — MFA,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.2866666666666667,7.9,Rusia (TASS/Mirror),Top security official’s death will not affect Iran’s political system — top diplomat,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Global South,,Diplomacia,0.2,4.0,Rusia (TASS/Mirror),"Youth eyes moving to Arctic counting on economic, career prospects — expert",Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,-0.125,3.2,Rusia (TASS/Mirror),Investment in Vorkuta coal mining development planned at $694 million,Neutral / Global
-2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.25,7.5,Rusia (TASS/Mirror),More than a dozen US-made MQ-9 Reaper drones lost in operations against Iran — TV,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Global South,,Diplomacia,0.1666666666666666,3.7,Rusia (TASS/Mirror),Top US diplomat dismisses report of plans to remove Cuban president from power,Neutral / Global
-2026-03-18 09:17:07,Occidente,,Diplomacia,-0.125,6.2,Rusia (TASS/Mirror),"Talks on Ukraine could take place in Geneva, but it is not top choice — Russian envoy",Neutral / Global
-2026-03-18 09:17:07,Occidente,,Diplomacia,-0.1125,6.1,Rusia (TASS/Mirror),Ukraine to lose conflict due to shortage of soldiers — prisoner,Neutral / Global
-2026-03-18 09:17:07,Occidente,,Diplomacia,-0.2249999999999999,7.2,Rusia (TASS/Mirror),USAID Inspector General’s office uncovers violations in $26 billion aid provision to Kiev,Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,-0.0625,2.6,Rusia (TASS/Mirror),"Foreign ministers of Arab, Islamic countries to hold meeting in Riyadh on March 18",Neutral / Global
-2026-03-18 09:17:07,Occidente,,Diplomacia,0.0999999999999999,6.0,Rusia (TASS/Mirror),"One Russian woman killed, 11 more Russians injured in accident in Phuket — newspaper",Neutral / Global
-2026-03-18 09:17:07,Global South,,Militar,0.3999999999999999,6.0,Rusia (TASS/Mirror),"More than 500 ATACMS, Storm Shadow, SCALP missiles used by Kiev since start of SMO",Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,0.2,4.0,Rusia (TASS/Mirror),Former Spanish Prime Minister supports stabilization of situation in Venezuela,Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),US intends to further ease sanctions on Venezuelan oil — Bloomberg,Neutral / Global
-2026-03-18 09:17:07,MENA/Irán,,Militar,-0.2,7.0,Rusia (TASS/Mirror),"Four killed, seven wounded in Israeli attack on Beirut — health ministry",Neutral / Global
-2026-03-18 09:17:07,Global South,,Militar,-0.1,3.0,Rusia (TASS/Mirror),Warsaw District Court to continue hearing case on extradition of archaeologist Butyagin,Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),Gasoline prices in US reach highest level since autumn 2023 — association,Neutral / Global
-2026-03-18 09:17:07,MENA/Irán,,Militar,0.0,5.0,Rusia (TASS/Mirror),Strait of Hormuz to only be opened after conflict ends — Iranian authorities,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Putin to open several facilities in Crimea via video link,Pro-Rusia
-2026-03-18 09:17:07,MENA/Irán,,Militar,-0.0625,5.6,Rusia (TASS/Mirror),Iranian president vows to avenge death of Larijani,Anti-Rusia
-2026-03-18 09:17:07,MENA/Irán,,Diplomacia,-0.125,6.2,Rusia (TASS/Mirror),"Iranian authorities confirm death of Larijani, appoint successors",Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),EU agrees on 90 billion euro loan to Kiev breaking Hungary's veto — Bulgarian radio,Neutral / Global
-2026-03-18 09:17:07,MENA/Irán,,Militar,0.0,5.0,Rusia (TASS/Mirror),Israeli army no longer needs political approval to eliminate senior Iranian officials — TV,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Occidente,,Militar,0.0,5.0,Rusia (TASS/Mirror),UAE may join US efforts to protect Strait of Hormuz — Reuters,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,MENA/Irán,,Militar,-0.1,6.0,Rusia (TASS/Mirror),US spending on war with Iran could exceed trillion dollars — The Intercept,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Trump says could have decided to withdraw from NATO without Congress,Pro-Occidente
-2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),EU experts arriving in Ukraine to assess Druzhba pipeline damage,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.05,5.5,Rusia (TASS/Mirror),Delo Group expects cargo traffic growth via Far East,Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),"Czech, Slovak officials to discuss expert examination of Druzhba oil pipeline",Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),Peruvian Prime Minister Miralles vacates office,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.0518518518518518,5.5,Rusia (TASS/Mirror),Russian stock market closes in the red — market reports,Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,0.4,6.0,Rusia (TASS/Mirror),Georgian patriarch died at age of 93 — TV,Neutral / Global
-2026-03-18 09:17:07,Occidente,,Diplomacia,1.0,15.0,Rusia (TASS/Mirror),Conflict in Ukraine would have ended in day without Washington's help to Kiev — Trump,Pro-Occidente
-2026-03-18 09:17:07,Global South,,Diplomacia,0.00875,2.1,Rusia (TASS/Mirror),SAS to cancel over 100 flights in Norway this week due to fuel prices,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Militar,0.1080357142857142,6.1,Rusia (TASS/Mirror),"Lavrov, Fidan discuss Iran war, energy projects — Russian Foreign Ministry",Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Global South,,Diplomacia,0.1,3.0,Rusia (TASS/Mirror),US intends to take measures in relation to Cuba soon — Trump,Neutral / Global
-2026-03-18 09:17:07,Occidente,,Diplomacia,0.0069444444444444,5.1,Rusia (TASS/Mirror),German subsidiary of Russian pharma company announces bankruptcy due to sanctions,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Russian Finance Ministry to hold federal loan bonds auctions on March 18,Neutral / Global
-2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),US allies reluctant to get involved in operation against Iran — Trump,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Trump says Europe unwilling to help US with Iran after American support regarding Ukraine,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Global South,,Diplomacia,0.1649999999999999,3.6,Rusia (TASS/Mirror),Tanker near UAE coast damaged due to air defense operation,Neutral / Global
-2026-03-18 09:17:07,MENA/Irán,,Militar,0.0,5.0,Rusia (TASS/Mirror),Iranian soldiers write messages on missiles telling US to get out of Middle East,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0866666666666666,5.9,Rusia (TASS/Mirror),Middle East share of Russian wheat exports grows to 37% in July-February,Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),France to never participate in operations to reopen Strait of Hormuz — President Macron,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.125,6.2,Rusia (TASS/Mirror),"Russia, Turkey confirm bilateral intentions of maintaining high-level contacts — ministry",Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),"Global economy cannot do without Russian energy, AfD leader says",Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),Power restored to one-third of Havana after nationwide outage,Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),"Aeroflot to add 43 extra flights to Thailand, Maldives, Sri Lanka",Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,0.1333333333333333,3.3,Rusia (TASS/Mirror),Spain to release up to 11.5 mln barrels from strategic oil reserves,Neutral / Global
-2026-03-18 09:17:07,MENA/Irán,,Militar,0.125,6.2,Rusia (TASS/Mirror),"Pentagon says Iran's space program ""destructed""",Eje de Resistencia (Irán)
-2026-03-18 09:17:07,MENA/Irán,,Diplomacia,-0.025,5.2,Rusia (TASS/Mirror),Slovak PM Fico predicts worsening global oil market situation amid Iran conflict,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Occidente,,Diplomacia,-0.0625,5.6,Rusia (TASS/Mirror),"No EU money for Ukraine until Druzhba oil flows resume, Orban says",Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,0.4499999999999999,6.5,Rusia (TASS/Mirror),Real effective exchange rate of ruble up 0.7% in February — Central Bank,Neutral / Global
-2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),EU intends to have Hungary’s ban lifted at forthcoming summit,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.0988095238095238,6.0,Rusia (TASS/Mirror),Russia deeply concerned about growing tensions around Cuba — Foreign Ministry,Neutral / Global
-2026-03-18 09:17:07,Occidente,,Diplomacia,-0.02,5.2,Rusia (TASS/Mirror),"Kiev seeks to further upend oil markets, create utter chaos globally — senator",Pro-Occidente
-2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Bank of Russia raises dollar rate to 81.91 rubles for March 18,Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,0.25,4.5,Rusia (TASS/Mirror),"RTS Index falls below 1,100 points for first time since January 16",Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,-0.0625,2.6,Rusia (TASS/Mirror),Kenya may face fertilizer shortage due to conflict in the Middle East — radio station,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.1,6.0,Rusia (TASS/Mirror),Russian industry fully covers road building sector needs — minister,Neutral / Global
-2026-03-18 09:17:07,MENA/Irán,,Diplomacia,-0.0062499999999999,5.1,Rusia (TASS/Mirror),Rubio orders US diplomats to influence other nations to take action against Iran — TV,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Occidente,,Diplomacia,-0.25,7.5,Rusia (TASS/Mirror),"Szijjarto scoffs at EU, Zelensky for playing dumb about Druzhba pipe",Neutral / Global
-2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.2,7.0,Rusia (TASS/Mirror),Trump allies fear loss of control over situation around Iran,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.003125,5.0,Rusia (TASS/Mirror),"Tankers start crossing Hormuz, White House says",Eje de Resistencia (Irán)
-2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),FIFA hopes to see Iranian national team playing at 2026 World Cup,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Occidente,,Diplomacia,0.1666666666666666,6.7,Rusia (TASS/Mirror),EU should return Russian oil to Europe — Szijjarto,Anti-China
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0666666666666666,5.7,Rusia (TASS/Mirror),Russia capable of increasing flexibility of energy market in Asian countries — expert,Neutral / Global
-2026-03-18 09:17:07,Occidente,,Diplomacia,0.125,6.2,Rusia (TASS/Mirror),Euro exchange rate exceeds 95 rubles on interbank market first since January,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.025,5.2,Rusia (TASS/Mirror),"Russian, Indian diplomats discuss UNSC reform, current global developments",Neutral / Global
-2026-03-18 09:17:07,Occidente,,Diplomacia,0.35,8.5,Rusia (TASS/Mirror),EU provides Ukraine with full terms for joining union,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.3525,8.5,Rusia (TASS/Mirror),More than 20 medical devices undergoing trials in Russia — PM,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.125,6.2,Rusia (TASS/Mirror),"Russian Space Systems comes up with over 1,000 inventions since 2022",Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Russia holds ceremony for Paralympic athletes on Red Square,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Russian plasma engine promises to make interplanetary travel magnitudes faster — expert,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.0811111111111111,5.8,Rusia (TASS/Mirror),Russian foreign trade surplus down to $6.6 bln in January — Central Bank,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.1611111111111111,6.6,Rusia (TASS/Mirror),Azerbaijani-Russian trade turnover down almost by half in January-February,Neutral / Global
-2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Eurasian Development Bank projects oil prices in $75-85 per barrel range in 2026,Neutral / Global
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Putin pardons 23 women — Human Rights Council head,Pro-Rusia
-2026-03-18 09:17:07,Occidente,,Militar,0.0571428571428571,5.6,Rusia (TASS/Mirror),Russian troops liberate two communities in Ukraine operation over past day — top brass,Neutral / Global
-2026-03-18 09:17:07,Occidente,,Militar,0.1833333333333333,6.8,Rusia (TASS/Mirror),US intelligence warned of risk of Iran striking Arab countries — Reuters,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.0699999999999999,5.7,Rusia (TASS/Mirror),White House launched operation in Iran without clear strategy — NYT,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Eurasia,,Diplomacia,0.1363636363636363,6.4,Rusia (TASS/Mirror),Iran in talks with FIFA on relocating team's 2026 World Cup matches from US to Mexico,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Global South,,Diplomacia,0.25,4.5,Rusia (TASS/Mirror),Air temperatures in Moscow break three century-old records,Neutral / Global
-2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),Zelensky finds excuses to sabotage diplomacy after every trip to London — politician,Neutral / Global
-2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),EU to unveil Russian oil ban plan on April 15 — Szijjarto,Neutral / Global
-2026-03-18 09:17:07,Occidente,,Diplomacia,-0.1305555555555555,6.3,Rusia (TASS/Mirror),NATO to hardly provide US with military aid in operation against Iran — former assistant,Pro-Occidente
-2026-03-18 09:17:07,MENA/Irán,,Militar,-0.5,10.0,Rusia (TASS/Mirror),"If Iran war drags on till June, 45 million people could face starvation — UN",Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Zelensky promises in letter to EC to repair Druzhba pipeline within 1-1.5 months,Neutral / Global
-2026-03-18 09:17:07,Occidente,,Diplomacia,-0.0125,5.1,Rusia (TASS/Mirror),Goal of US-Israel operation in Iran remains unclear — EU Council chief,Eje de Resistencia (Irán)
-2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.0722222222222222,5.7,Rusia (TASS/Mirror),Over half of Russians long for days of USSR — pollster,Neutral / Global
-2026-03-18 09:17:19,Global South,,Diplomacia,0.0,2.0,India (Times of India),Assam MP Pradyut Bordoloi joins BJP; CM hints at recommending him for polls,Neutral / Global
-2026-03-18 09:17:19,Global South,,Diplomacia,0.6000000000000001,8.0,India (Times of India),"‘Fly to India for free’: US uses Taj Mahal in ‘self-deportation’ post with $2,600 incentive",Neutral / Global
-2026-03-18 09:17:19,Eurasia,,Militar,-0.1270833333333333,6.3,India (Times of India),30 mn barrels in a week! India grabs more Russian crude amid US-Iran war,Pro-China
-2026-03-18 09:17:19,Global South,,Diplomacia,0.1493371212121212,3.5,India (Times of India),"Dhoni to hand WK gloves to Samson, captaincy next? Kumble on CSK plan",Neutral / Global
-2026-03-18 09:17:19,Occidente,,Militar,0.6416666666666667,11.4,India (Times of India),Google AI on the book that influenced him most: Every student must read,Neutral / Global
-2026-03-18 09:17:19,MENA/Irán,,Diplomacia,0.1666666666666666,6.7,India (Times of India),Watch: Flashes in sky above central Israel in latest Iran cluster munition strike,Eje de Resistencia (Irán)
-2026-03-18 09:17:19,MENA/Irán,,Diplomacia,0.1,6.0,India (Times of India),"US hits Iran near Strait of Hormuz with 5,000-pound 'bunker buster' bomb — what makes it stand out",Eje de Resistencia (Irán)
-2026-03-18 09:17:19,Global South,,Diplomacia,-0.10625,3.1,India (Times of India),Zerodha founder Nithin Kamath says I don't use internet banking apps; here's why,Neutral / Global
-2026-03-18 09:17:19,Global South,,Diplomacia,-0.005,2.1,India (Times of India),MP: Facebook lover bludgeons woman to death over marriage pressure,Neutral / Global
-2026-03-18 09:17:19,Global South,,Militar,-0.25,4.5,India (Times of India),"Nasa warns airplane-sized asteroid 2026 FB zooming past Earth at 34,000 mph today",Neutral / Global
-2026-03-18 09:17:19,Global South,,Diplomacia,0.1454545454545454,3.5,India (Times of India),'Two words' at the centre of Microsoft's dispute with Amazon &amp; OpenAI in a $50 bn deal,Anti-China
-2026-03-18 09:17:19,Global South,,Diplomacia,0.1583333333333333,3.6,India (Times of India),LPG crisis: Centre pushes states to fast-track switch to PNG amid Hormuz disruption,Neutral / Global
-2026-03-18 09:17:19,Global South,,Militar,0.3,5.0,India (Times of India),"Indian IT stocks surge! Infosys, TCS, Wipro rise up to 4%; why are they rallying?",Neutral / Global
-2026-03-18 09:17:19,Occidente,,Diplomacia,0.0,5.0,India (Times of India),'Riyan Parag yet to establish': Chopra’s blunt take on RR’s ‘inexperienced’ squad,Neutral / Global
-2026-03-18 09:17:19,Eurasia,,Diplomacia,0.0442857142857142,5.4,India (Times of India),"'When HC can't decide correct answer, how can students?': SC on law officer recruitment question",Neutral / Global
-2026-03-18 09:17:19,Global South,,Diplomacia,0.0932142857142857,2.9,India (Times of India),Location vs Budget: How homebuyers can find the right balance,Neutral / Global
-2026-03-18 09:17:19,Global South,,Diplomacia,0.0,2.0,India (Times of India),"'Will not succumb to Delhi': TVK claims Vijay rejected Tamil Nadu CM post, 50% seats",Neutral / Global
-2026-03-18 09:17:19,Global South,,Diplomacia,0.1857142857142857,3.9,India (Times of India),'Please don't share spoilers': Aditya Dhar requests everyone ahead of 'Dhurandhar 2' release,Neutral / Global
-2026-03-18 09:17:19,Global South,,Diplomacia,-0.2499999999999999,4.5,India (Times of India),3 kids among 9 killed in massive fire at residential building in Delhi's Palam,Neutral / Global
-2026-03-18 09:17:19,Global South,,Diplomacia,0.0249999999999999,2.2,India (Times of India),Cuba President guarantees 'unbreakable resistance' after Trump's takeover claim,Eje de Resistencia (Irán)
-2026-03-18 09:17:19,MENA/Irán,,Militar,0.1458333333333333,6.5,India (Times of India),"LPG cylinder rate, petrol, diesel price today: Check city-wise list of latest prices",Eje de Resistencia (Irán)
-2026-03-18 09:17:19,Occidente,,Diplomacia,0.3333333333333333,8.3,India (Times of India),Caitlin Clark surprised by Angel Reese gesture during FIBA qualifier,Neutral / Global
-2026-03-18 09:17:19,MENA/Irán,,Militar,0.04,5.4,India (Times of India),Watch: Israeli strike in Beirut reduces building to rubble in seconds,Neutral / Global
-2026-03-18 09:17:19,Occidente,,Militar,0.0375,5.4,India (Times of India),A look at 'Haj Qasem' missile Iran used for the first time against Israel,Eje de Resistencia (Irán)
-2026-03-18 09:17:19,Global South,,Diplomacia,0.0,2.0,India (Times of India),‘Call me’: Lalit Modi reacts to Kavya Maran after Abrar Ahmed row,Neutral / Global
-2026-03-18 09:17:19,Global South,,Militar,-0.125,3.2,India (Times of India),‘Cannot understand the sensitivity?’ Humpy breaks silence on Candidates call,Neutral / Global
-2026-03-18 09:17:19,Occidente,,Militar,-0.0395833333333333,5.4,India (Times of India),US-Iran war: How the LPG cylinder has become the face of Middle East mayhem's impact on India,Eje de Resistencia (Irán)
-2026-03-18 09:17:19,Global South,,Diplomacia,0.1051948051948051,3.1,India (Times of India),"No charge on 60% seats, flyers with same PNR to sit together: DGCA's new rules",Neutral / Global
-2026-03-18 09:17:19,Global South,,Diplomacia,-0.15,3.5,India (Times of India),"After harassment, 10-man gang follows Class X girl home, ransacks house, damages vehicles in TN",Neutral / Global
-2026-03-18 09:17:19,MENA/Irán,,Militar,0.0,5.0,India (Times of India),‘We need ceasefire’: Finland President calls for talks as Iran war rages on; sees role for India,Eje de Resistencia (Irán)
-2026-03-18 09:17:19,Global South,,Diplomacia,-0.1666666666666666,3.7,India (Times of India),Watch: Canadian PM and Finland President discuss ‘Dhurandhar’ during jog in London,Neutral / Global
-2026-03-18 09:17:19,Global South,,Militar,0.25,4.5,India (Times of India),‘Starlink now available in Kuwait!’: Musk confirms satellite internet rollout amid Middle East war,Neutral / Global
-2026-03-18 09:17:19,Global South,,Diplomacia,-0.3333333333333333,5.3,India (Times of India),EV on charge &amp; 10 LPG cylinders: Deadly chain reaction behind Indore house fire that killed 7,Neutral / Global
-2026-03-18 09:17:19,Global South,,Militar,0.0166666666666666,2.2,India (Times of India),'Disease in Indian cricket': Ashwin raises concerns over fan armies 'ecosystem',Neutral / Global
-2026-03-18 09:17:19,MENA/Irán,,Militar,-0.09375,5.9,India (Times of India),Hormuz chokehold forces oil reroute via Red Sea — but how long can this lifeline hold?,Anti-China
-2026-03-18 09:17:19,MENA/Irán,,Militar,0.0833333333333333,5.8,India (Times of India),"Injuries hit IPL pace units: KKR, SRH, RCB face selection headaches",Eje de Resistencia (Irán)
-2026-03-18 09:17:19,Global South,,Diplomacia,0.0,2.0,India (Times of India),22 Indian vessels still stuck in Strait of Hormuz,Neutral / Global
-2026-03-18 09:17:19,Global South,,Diplomacia,0.3370370370370371,5.4,India (Times of India),YouTuber Ms Rachel’s 1-year-old daughter’s advanced vocabulary sparks debate among parents,Neutral / Global
-2026-03-18 09:17:19,Global South,,Militar,-0.14375,3.4,India (Times of India),Mumbai court rejects BMC mayor Ritu Tawde’s discharge plea in 2016 teacher assault case,Neutral / Global
-2026-03-18 09:17:19,MENA/Irán,,Diplomacia,-0.2,7.0,India (Times of India),'Was at his daughter’s house': Inside the strike that killed Iran security chief Larijani,Eje de Resistencia (Irán)
-2026-03-18 09:24:43,MENA/Irán,,Diplomacia,0.28409090909090906,7.8,Rusia (TASS/Mirror),Iran’s nuclear weapons issue depends on new leader’s position — top diplomat,Eje de Resistencia (Irán)
-2026-03-18 09:24:43,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Middle East escalation to hit global energy security — China’s envoy,Pro-China
+date,bloque,title,tema,sentiment_score,impacto,fuente,titulo,narrativa,brent_price,gold_price
+2026-03-17 20:33:48,Occidente_USA,"Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course'",Conflicto Medio Oriente,-0.6597,,,,,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,‘US distraction in the Middle East is in China’s interest’,,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,"Israel bombs central Beirut, killing 6, strafes south, east Lebanon",,,
+2026-03-18 09:03:50,BRICS+,,Conflicto,-0.5,8.0,Al Jazeera,Iran war: What is happening on day 19 of US-Israel attacks?,,,
+2026-03-18 09:03:50,BRICS+,,Conflicto,-0.5,3.0,Al Jazeera,Iran launches ‘revenge’ missile attack on Israel after assassinations,,,
+2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,3.0,Al Jazeera,Israeli air strike flattens residential building in Beirut,,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,"Qatar can keep goods flowing amid tensions, customs chief says",,,
+2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,8.0,Al Jazeera,"Iran fires missiles, drones across Gulf, region remains in war crosshairs",,,
+2026-03-18 09:03:50,OTAN/G7,,Economía,0.1,3.0,Al Jazeera,"Venezuela defeat USA, win first World Baseball Classic championship",,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Cuba restores power after 29-hour blackout amid US oil blockade,,,
+2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,8.0,Al Jazeera,Trump confirms meeting with China’s Xi Jinping delayed as war on Iran rages,,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Actor Sean Penn gifted a special ‘Oscar’ by Ukraine’s railway company,,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Trump administration defends Anthropic blacklisting in US court,,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Araghchi: Iran’s system holds despite targeted leaders,,,
+2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,8.0,Al Jazeera,‘This is America’s war’: Iran’s Foreign Minister Araghchi,,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Killing of Larijani will not destabilise Iranian political system: Minister,,,
+2026-03-18 09:03:50,BRICS+,,Conflicto,-0.5,3.0,Al Jazeera,Drone attacks hit near US embassy in Baghdad,,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Experts discuss ‘Israeli strategy’ in killing of senior Iran official Ali L,,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,"‘We’ll be doing something with Cuba very soon’, Trump says",,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,"Iran allowing more ships through Strait of Hormuz, data suggest",,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Ukraine sends 201 military experts to counter Iranian drones in the Gulf,,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Xi Jinping’s anticorruption drive sweeps up senior Chinese military chiefs,,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,"Who is Joe Kent, and why did he resign as Trump’s counterterrorism chief?",,,
+2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,8.0,Al Jazeera,"Larijani’s warning to US, Israel before his killing",,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Burning debris from missile interceptions showers Dubai,,,
+2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,8.0,Al Jazeera,"Iran war live: Tehran mourns Larijani, Soleimani; 2 killed in Israel",,,
+2026-03-18 09:17:06,MENA/Irán,,Militar,0.1149999999999999,6.1,Occidente (BBC),"Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course'",Eje de Resistencia (Irán),,
+2026-03-18 09:17:06,MENA/Irán,,Diplomacia,0.4166666666666667,9.2,Occidente (BBC),Death of Ali Larijani deepens crisis at heart of Iran's leadership,Eje de Resistencia (Irán),,
+2026-03-18 09:17:06,MENA/Irán,,Diplomacia,0.0,5.0,Occidente (BBC),Total repression and air strikes bring unrelenting dread for Iranians,Eje de Resistencia (Irán),,
+2026-03-18 09:17:06,Eurasia,,Diplomacia,0.0,5.0,Occidente (BBC),Spanish king reopens debate on conquest of Mexico by acknowledging 'abuse',Neutral / Global,,
+2026-03-18 09:17:06,Global South,,Diplomacia,0.0249999999999999,2.2,Occidente (BBC),"Air strike hit Kabul rehab centre as patients ate dinner, survivor tells BBC",Neutral / Global,,
+2026-03-18 09:17:06,Global South,,Diplomacia,-0.1166666666666666,3.2,Occidente (BBC),Chile's president begins building border barrier less than week into term,Neutral / Global,,
+2026-03-18 09:17:06,Global South,,Diplomacia,0.1,3.0,Occidente (BBC),India's cheap weight-loss drugs could reshape global obesity fight,Neutral / Global,,
+2026-03-18 09:17:06,Occidente,,Militar,0.0,5.0,Occidente (BBC),Italy warns Russian tanker could explode in Mediterranean at any time,Neutral / Global,,
+2026-03-18 09:17:06,Global South,,Diplomacia,0.05,2.5,Occidente (BBC),US Attorney General Bondi formally summoned to Congress in Epstein case,Neutral / Global,,
+2026-03-18 09:17:06,Occidente,,Diplomacia,0.0,5.0,Occidente (BBC),Water supply cut in Moldova after oil spill blamed on Russian strike in Ukraine,Neutral / Global,,
+2026-03-18 09:17:06,Global South,,Diplomacia,-0.3,5.0,Occidente (BBC),Pakistan air strike kills at least 100 at Kabul drug rehab centre,Neutral / Global,,
+2026-03-18 09:17:06,Global South,,Diplomacia,0.7,9.0,Occidente (BBC),And the burger goes to... Michael B Jordan marks Oscars win at In-N-Out,Neutral / Global,,
+2026-03-18 09:17:06,Global South,,Diplomacia,-0.5,7.0,Occidente (BBC),Utah mother who wrote book about grief found guilty of poisoning husband,Neutral / Global,,
+2026-03-18 09:17:06,Global South,,Diplomacia,0.1333333333333333,3.3,Occidente (BBC),"Aspiring female Zambian politicians were asked for sexual favours, official says",Neutral / Global,,
+2026-03-18 09:17:06,Global South,,Diplomacia,0.1666666666666666,3.7,Occidente (BBC),Sri Lanka declares Wednesdays off as Asian countries try to conserve fuel,Neutral / Global,,
+2026-03-18 09:17:06,MENA/Irán,,Diplomacia,0.1,6.0,Occidente (BBC),Iranian security chief Ali Larijani killed in air strike,Eje de Resistencia (Irán),,
+2026-03-18 09:17:06,Eurasia,,Diplomacia,0.0,5.0,Occidente (BBC),What have US allies and China said about sending ships to the Strait of Hormuz?,Pro-China,,
+2026-03-18 09:17:06,MENA/Irán,,Militar,0.0833333333333333,5.8,Occidente (BBC),Surge in US gas prices deepens political peril for Trump over Iran,Eje de Resistencia (Irán),,
+2026-03-18 09:17:06,MENA/Irán,,Militar,0.0,5.0,Occidente (BBC),Will the Iran war squeeze India's piped gas next?,Eje de Resistencia (Irán),,
+2026-03-18 09:17:06,Global South,,Militar,0.1499999999999999,3.5,Occidente (BBC),'Fire came from the sky and burned them' - life on the brink of civil war in South Sudan,Neutral / Global,,
+2026-03-18 09:17:06,Occidente,,Militar,-0.0733333333333333,5.7,Occidente (BBC),Wary allies show there's no quick fix to Trump's Iran crisis,Eje de Resistencia (Irán),,
+2026-03-18 09:17:06,MENA/Irán,,Diplomacia,-0.1333333333333333,6.3,Occidente (BBC),"'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",Neutral / Global,,
+2026-03-18 09:17:06,MENA/Irán,,Diplomacia,0.1363636363636363,6.4,Occidente (BBC),"Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",Eje de Resistencia (Irán),,
+2026-03-18 09:17:06,MENA/Irán,,Diplomacia,0.0,5.0,Occidente (BBC),Why did only two Iranian football players stay in Australia?,Eje de Resistencia (Irán),,
+2026-03-18 09:17:06,Occidente,,Diplomacia,0.25,7.5,Occidente (BBC),Watch: Reunion resident gets close to lava from erupting volcano,Neutral / Global,,
+2026-03-18 09:17:06,Global South,,Militar,0.0399999999999999,2.4,Occidente (BBC),"Historic firsts, emotional speeches, and a tie: Watch the top Oscars moments",Neutral / Global,,
+2026-03-18 09:17:06,Eurasia,,Diplomacia,0.2,7.0,Occidente (BBC),Mexico City breaks Guinness Record with giant football training session,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0027777777777777,5.0,Rusia (TASS/Mirror),"Russia’s first robotic, unmanned systems test center opens in Moscow",Neutral / Global,,
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.375,8.8,Rusia (TASS/Mirror),Tehran interested in peace proposals involving damage compensation — top diplomat,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Occidente,,Militar,-0.175,6.8,Rusia (TASS/Mirror),Ukraine’s military attacks Russia’s Belgorod Region with over 80 UAVs in past day,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.3,8.0,Rusia (TASS/Mirror),Mercedes-Benz registers 'Mercedes-Benz' trademark in Russia,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Moscow Polytechnic University develops unmanned copter parts for mass production,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0833333333333333,5.8,Rusia (TASS/Mirror),Russian stocks up as main trading session opens,Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),Iraq has resumed oil exports through Turkish port of Ceyhan — agency,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Militar,0.05,5.5,Rusia (TASS/Mirror),IN BRIEF: Iran’s Bushehr Nuclear Power Plant comes under attack,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.25,7.5,Rusia (TASS/Mirror),Russian Pacific Fleet ships depart from Indian port of Visakhapatnam,Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,-0.3,5.0,Rusia (TASS/Mirror),MOEX Index up as morning trading session opens,Neutral / Global,,
+2026-03-18 09:17:07,MENA/Irán,,Militar,0.0,5.0,Rusia (TASS/Mirror),Iran to revise rules for vessels passing through Strait of Hormuz after war — MFA,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.2866666666666667,7.9,Rusia (TASS/Mirror),Top security official’s death will not affect Iran’s political system — top diplomat,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.2,4.0,Rusia (TASS/Mirror),"Youth eyes moving to Arctic counting on economic, career prospects — expert",Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,-0.125,3.2,Rusia (TASS/Mirror),Investment in Vorkuta coal mining development planned at $694 million,Neutral / Global,,
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.25,7.5,Rusia (TASS/Mirror),More than a dozen US-made MQ-9 Reaper drones lost in operations against Iran — TV,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.1666666666666666,3.7,Rusia (TASS/Mirror),Top US diplomat dismisses report of plans to remove Cuban president from power,Neutral / Global,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.125,6.2,Rusia (TASS/Mirror),"Talks on Ukraine could take place in Geneva, but it is not top choice — Russian envoy",Neutral / Global,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.1125,6.1,Rusia (TASS/Mirror),Ukraine to lose conflict due to shortage of soldiers — prisoner,Neutral / Global,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.2249999999999999,7.2,Rusia (TASS/Mirror),USAID Inspector General’s office uncovers violations in $26 billion aid provision to Kiev,Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,-0.0625,2.6,Rusia (TASS/Mirror),"Foreign ministers of Arab, Islamic countries to hold meeting in Riyadh on March 18",Neutral / Global,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0999999999999999,6.0,Rusia (TASS/Mirror),"One Russian woman killed, 11 more Russians injured in accident in Phuket — newspaper",Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Militar,0.3999999999999999,6.0,Rusia (TASS/Mirror),"More than 500 ATACMS, Storm Shadow, SCALP missiles used by Kiev since start of SMO",Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.2,4.0,Rusia (TASS/Mirror),Former Spanish Prime Minister supports stabilization of situation in Venezuela,Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),US intends to further ease sanctions on Venezuelan oil — Bloomberg,Neutral / Global,,
+2026-03-18 09:17:07,MENA/Irán,,Militar,-0.2,7.0,Rusia (TASS/Mirror),"Four killed, seven wounded in Israeli attack on Beirut — health ministry",Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Militar,-0.1,3.0,Rusia (TASS/Mirror),Warsaw District Court to continue hearing case on extradition of archaeologist Butyagin,Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),Gasoline prices in US reach highest level since autumn 2023 — association,Neutral / Global,,
+2026-03-18 09:17:07,MENA/Irán,,Militar,0.0,5.0,Rusia (TASS/Mirror),Strait of Hormuz to only be opened after conflict ends — Iranian authorities,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Putin to open several facilities in Crimea via video link,Pro-Rusia,,
+2026-03-18 09:17:07,MENA/Irán,,Militar,-0.0625,5.6,Rusia (TASS/Mirror),Iranian president vows to avenge death of Larijani,Anti-Rusia,,
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,-0.125,6.2,Rusia (TASS/Mirror),"Iranian authorities confirm death of Larijani, appoint successors",Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),EU agrees on 90 billion euro loan to Kiev breaking Hungary's veto — Bulgarian radio,Neutral / Global,,
+2026-03-18 09:17:07,MENA/Irán,,Militar,0.0,5.0,Rusia (TASS/Mirror),Israeli army no longer needs political approval to eliminate senior Iranian officials — TV,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Occidente,,Militar,0.0,5.0,Rusia (TASS/Mirror),UAE may join US efforts to protect Strait of Hormuz — Reuters,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,MENA/Irán,,Militar,-0.1,6.0,Rusia (TASS/Mirror),US spending on war with Iran could exceed trillion dollars — The Intercept,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Trump says could have decided to withdraw from NATO without Congress,Pro-Occidente,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),EU experts arriving in Ukraine to assess Druzhba pipeline damage,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.05,5.5,Rusia (TASS/Mirror),Delo Group expects cargo traffic growth via Far East,Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),"Czech, Slovak officials to discuss expert examination of Druzhba oil pipeline",Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),Peruvian Prime Minister Miralles vacates office,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.0518518518518518,5.5,Rusia (TASS/Mirror),Russian stock market closes in the red — market reports,Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.4,6.0,Rusia (TASS/Mirror),Georgian patriarch died at age of 93 — TV,Neutral / Global,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,1.0,15.0,Rusia (TASS/Mirror),Conflict in Ukraine would have ended in day without Washington's help to Kiev — Trump,Pro-Occidente,,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.00875,2.1,Rusia (TASS/Mirror),SAS to cancel over 100 flights in Norway this week due to fuel prices,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Militar,0.1080357142857142,6.1,Rusia (TASS/Mirror),"Lavrov, Fidan discuss Iran war, energy projects — Russian Foreign Ministry",Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.1,3.0,Rusia (TASS/Mirror),US intends to take measures in relation to Cuba soon — Trump,Neutral / Global,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0069444444444444,5.1,Rusia (TASS/Mirror),German subsidiary of Russian pharma company announces bankruptcy due to sanctions,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Russian Finance Ministry to hold federal loan bonds auctions on March 18,Neutral / Global,,
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),US allies reluctant to get involved in operation against Iran — Trump,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Trump says Europe unwilling to help US with Iran after American support regarding Ukraine,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.1649999999999999,3.6,Rusia (TASS/Mirror),Tanker near UAE coast damaged due to air defense operation,Neutral / Global,,
+2026-03-18 09:17:07,MENA/Irán,,Militar,0.0,5.0,Rusia (TASS/Mirror),Iranian soldiers write messages on missiles telling US to get out of Middle East,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0866666666666666,5.9,Rusia (TASS/Mirror),Middle East share of Russian wheat exports grows to 37% in July-February,Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),France to never participate in operations to reopen Strait of Hormuz — President Macron,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.125,6.2,Rusia (TASS/Mirror),"Russia, Turkey confirm bilateral intentions of maintaining high-level contacts — ministry",Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),"Global economy cannot do without Russian energy, AfD leader says",Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),Power restored to one-third of Havana after nationwide outage,Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),"Aeroflot to add 43 extra flights to Thailand, Maldives, Sri Lanka",Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.1333333333333333,3.3,Rusia (TASS/Mirror),Spain to release up to 11.5 mln barrels from strategic oil reserves,Neutral / Global,,
+2026-03-18 09:17:07,MENA/Irán,,Militar,0.125,6.2,Rusia (TASS/Mirror),"Pentagon says Iran's space program ""destructed""",Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,-0.025,5.2,Rusia (TASS/Mirror),Slovak PM Fico predicts worsening global oil market situation amid Iran conflict,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.0625,5.6,Rusia (TASS/Mirror),"No EU money for Ukraine until Druzhba oil flows resume, Orban says",Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.4499999999999999,6.5,Rusia (TASS/Mirror),Real effective exchange rate of ruble up 0.7% in February — Central Bank,Neutral / Global,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),EU intends to have Hungary’s ban lifted at forthcoming summit,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.0988095238095238,6.0,Rusia (TASS/Mirror),Russia deeply concerned about growing tensions around Cuba — Foreign Ministry,Neutral / Global,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.02,5.2,Rusia (TASS/Mirror),"Kiev seeks to further upend oil markets, create utter chaos globally — senator",Pro-Occidente,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Bank of Russia raises dollar rate to 81.91 rubles for March 18,Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.25,4.5,Rusia (TASS/Mirror),"RTS Index falls below 1,100 points for first time since January 16",Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,-0.0625,2.6,Rusia (TASS/Mirror),Kenya may face fertilizer shortage due to conflict in the Middle East — radio station,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.1,6.0,Rusia (TASS/Mirror),Russian industry fully covers road building sector needs — minister,Neutral / Global,,
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,-0.0062499999999999,5.1,Rusia (TASS/Mirror),Rubio orders US diplomats to influence other nations to take action against Iran — TV,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.25,7.5,Rusia (TASS/Mirror),"Szijjarto scoffs at EU, Zelensky for playing dumb about Druzhba pipe",Neutral / Global,,
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.2,7.0,Rusia (TASS/Mirror),Trump allies fear loss of control over situation around Iran,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.003125,5.0,Rusia (TASS/Mirror),"Tankers start crossing Hormuz, White House says",Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),FIFA hopes to see Iranian national team playing at 2026 World Cup,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.1666666666666666,6.7,Rusia (TASS/Mirror),EU should return Russian oil to Europe — Szijjarto,Anti-China,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0666666666666666,5.7,Rusia (TASS/Mirror),Russia capable of increasing flexibility of energy market in Asian countries — expert,Neutral / Global,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.125,6.2,Rusia (TASS/Mirror),Euro exchange rate exceeds 95 rubles on interbank market first since January,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.025,5.2,Rusia (TASS/Mirror),"Russian, Indian diplomats discuss UNSC reform, current global developments",Neutral / Global,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.35,8.5,Rusia (TASS/Mirror),EU provides Ukraine with full terms for joining union,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.3525,8.5,Rusia (TASS/Mirror),More than 20 medical devices undergoing trials in Russia — PM,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.125,6.2,Rusia (TASS/Mirror),"Russian Space Systems comes up with over 1,000 inventions since 2022",Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Russia holds ceremony for Paralympic athletes on Red Square,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Russian plasma engine promises to make interplanetary travel magnitudes faster — expert,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.0811111111111111,5.8,Rusia (TASS/Mirror),Russian foreign trade surplus down to $6.6 bln in January — Central Bank,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.1611111111111111,6.6,Rusia (TASS/Mirror),Azerbaijani-Russian trade turnover down almost by half in January-February,Neutral / Global,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Eurasian Development Bank projects oil prices in $75-85 per barrel range in 2026,Neutral / Global,,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Putin pardons 23 women — Human Rights Council head,Pro-Rusia,,
+2026-03-18 09:17:07,Occidente,,Militar,0.0571428571428571,5.6,Rusia (TASS/Mirror),Russian troops liberate two communities in Ukraine operation over past day — top brass,Neutral / Global,,
+2026-03-18 09:17:07,Occidente,,Militar,0.1833333333333333,6.8,Rusia (TASS/Mirror),US intelligence warned of risk of Iran striking Arab countries — Reuters,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.0699999999999999,5.7,Rusia (TASS/Mirror),White House launched operation in Iran without clear strategy — NYT,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.1363636363636363,6.4,Rusia (TASS/Mirror),Iran in talks with FIFA on relocating team's 2026 World Cup matches from US to Mexico,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.25,4.5,Rusia (TASS/Mirror),Air temperatures in Moscow break three century-old records,Neutral / Global,,
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),Zelensky finds excuses to sabotage diplomacy after every trip to London — politician,Neutral / Global,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),EU to unveil Russian oil ban plan on April 15 — Szijjarto,Neutral / Global,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.1305555555555555,6.3,Rusia (TASS/Mirror),NATO to hardly provide US with military aid in operation against Iran — former assistant,Pro-Occidente,,
+2026-03-18 09:17:07,MENA/Irán,,Militar,-0.5,10.0,Rusia (TASS/Mirror),"If Iran war drags on till June, 45 million people could face starvation — UN",Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Zelensky promises in letter to EC to repair Druzhba pipeline within 1-1.5 months,Neutral / Global,,
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.0125,5.1,Rusia (TASS/Mirror),Goal of US-Israel operation in Iran remains unclear — EU Council chief,Eje de Resistencia (Irán),,
+2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.0722222222222222,5.7,Rusia (TASS/Mirror),Over half of Russians long for days of USSR — pollster,Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Diplomacia,0.0,2.0,India (Times of India),Assam MP Pradyut Bordoloi joins BJP; CM hints at recommending him for polls,Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Diplomacia,0.6000000000000001,8.0,India (Times of India),"‘Fly to India for free’: US uses Taj Mahal in ‘self-deportation’ post with $2,600 incentive",Neutral / Global,,
+2026-03-18 09:17:19,Eurasia,,Militar,-0.1270833333333333,6.3,India (Times of India),30 mn barrels in a week! India grabs more Russian crude amid US-Iran war,Pro-China,,
+2026-03-18 09:17:19,Global South,,Diplomacia,0.1493371212121212,3.5,India (Times of India),"Dhoni to hand WK gloves to Samson, captaincy next? Kumble on CSK plan",Neutral / Global,,
+2026-03-18 09:17:19,Occidente,,Militar,0.6416666666666667,11.4,India (Times of India),Google AI on the book that influenced him most: Every student must read,Neutral / Global,,
+2026-03-18 09:17:19,MENA/Irán,,Diplomacia,0.1666666666666666,6.7,India (Times of India),Watch: Flashes in sky above central Israel in latest Iran cluster munition strike,Eje de Resistencia (Irán),,
+2026-03-18 09:17:19,MENA/Irán,,Diplomacia,0.1,6.0,India (Times of India),"US hits Iran near Strait of Hormuz with 5,000-pound 'bunker buster' bomb — what makes it stand out",Eje de Resistencia (Irán),,
+2026-03-18 09:17:19,Global South,,Diplomacia,-0.10625,3.1,India (Times of India),Zerodha founder Nithin Kamath says I don't use internet banking apps; here's why,Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Diplomacia,-0.005,2.1,India (Times of India),MP: Facebook lover bludgeons woman to death over marriage pressure,Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Militar,-0.25,4.5,India (Times of India),"Nasa warns airplane-sized asteroid 2026 FB zooming past Earth at 34,000 mph today",Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Diplomacia,0.1454545454545454,3.5,India (Times of India),'Two words' at the centre of Microsoft's dispute with Amazon &amp; OpenAI in a $50 bn deal,Anti-China,,
+2026-03-18 09:17:19,Global South,,Diplomacia,0.1583333333333333,3.6,India (Times of India),LPG crisis: Centre pushes states to fast-track switch to PNG amid Hormuz disruption,Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Militar,0.3,5.0,India (Times of India),"Indian IT stocks surge! Infosys, TCS, Wipro rise up to 4%; why are they rallying?",Neutral / Global,,
+2026-03-18 09:17:19,Occidente,,Diplomacia,0.0,5.0,India (Times of India),'Riyan Parag yet to establish': Chopra’s blunt take on RR’s ‘inexperienced’ squad,Neutral / Global,,
+2026-03-18 09:17:19,Eurasia,,Diplomacia,0.0442857142857142,5.4,India (Times of India),"'When HC can't decide correct answer, how can students?': SC on law officer recruitment question",Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Diplomacia,0.0932142857142857,2.9,India (Times of India),Location vs Budget: How homebuyers can find the right balance,Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Diplomacia,0.0,2.0,India (Times of India),"'Will not succumb to Delhi': TVK claims Vijay rejected Tamil Nadu CM post, 50% seats",Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Diplomacia,0.1857142857142857,3.9,India (Times of India),'Please don't share spoilers': Aditya Dhar requests everyone ahead of 'Dhurandhar 2' release,Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Diplomacia,-0.2499999999999999,4.5,India (Times of India),3 kids among 9 killed in massive fire at residential building in Delhi's Palam,Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Diplomacia,0.0249999999999999,2.2,India (Times of India),Cuba President guarantees 'unbreakable resistance' after Trump's takeover claim,Eje de Resistencia (Irán),,
+2026-03-18 09:17:19,MENA/Irán,,Militar,0.1458333333333333,6.5,India (Times of India),"LPG cylinder rate, petrol, diesel price today: Check city-wise list of latest prices",Eje de Resistencia (Irán),,
+2026-03-18 09:17:19,Occidente,,Diplomacia,0.3333333333333333,8.3,India (Times of India),Caitlin Clark surprised by Angel Reese gesture during FIBA qualifier,Neutral / Global,,
+2026-03-18 09:17:19,MENA/Irán,,Militar,0.04,5.4,India (Times of India),Watch: Israeli strike in Beirut reduces building to rubble in seconds,Neutral / Global,,
+2026-03-18 09:17:19,Occidente,,Militar,0.0375,5.4,India (Times of India),A look at 'Haj Qasem' missile Iran used for the first time against Israel,Eje de Resistencia (Irán),,
+2026-03-18 09:17:19,Global South,,Diplomacia,0.0,2.0,India (Times of India),‘Call me’: Lalit Modi reacts to Kavya Maran after Abrar Ahmed row,Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Militar,-0.125,3.2,India (Times of India),‘Cannot understand the sensitivity?’ Humpy breaks silence on Candidates call,Neutral / Global,,
+2026-03-18 09:17:19,Occidente,,Militar,-0.0395833333333333,5.4,India (Times of India),US-Iran war: How the LPG cylinder has become the face of Middle East mayhem's impact on India,Eje de Resistencia (Irán),,
+2026-03-18 09:17:19,Global South,,Diplomacia,0.1051948051948051,3.1,India (Times of India),"No charge on 60% seats, flyers with same PNR to sit together: DGCA's new rules",Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Diplomacia,-0.15,3.5,India (Times of India),"After harassment, 10-man gang follows Class X girl home, ransacks house, damages vehicles in TN",Neutral / Global,,
+2026-03-18 09:17:19,MENA/Irán,,Militar,0.0,5.0,India (Times of India),‘We need ceasefire’: Finland President calls for talks as Iran war rages on; sees role for India,Eje de Resistencia (Irán),,
+2026-03-18 09:17:19,Global South,,Diplomacia,-0.1666666666666666,3.7,India (Times of India),Watch: Canadian PM and Finland President discuss ‘Dhurandhar’ during jog in London,Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Militar,0.25,4.5,India (Times of India),‘Starlink now available in Kuwait!’: Musk confirms satellite internet rollout amid Middle East war,Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Diplomacia,-0.3333333333333333,5.3,India (Times of India),EV on charge &amp; 10 LPG cylinders: Deadly chain reaction behind Indore house fire that killed 7,Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Militar,0.0166666666666666,2.2,India (Times of India),'Disease in Indian cricket': Ashwin raises concerns over fan armies 'ecosystem',Neutral / Global,,
+2026-03-18 09:17:19,MENA/Irán,,Militar,-0.09375,5.9,India (Times of India),Hormuz chokehold forces oil reroute via Red Sea — but how long can this lifeline hold?,Anti-China,,
+2026-03-18 09:17:19,MENA/Irán,,Militar,0.0833333333333333,5.8,India (Times of India),"Injuries hit IPL pace units: KKR, SRH, RCB face selection headaches",Eje de Resistencia (Irán),,
+2026-03-18 09:17:19,Global South,,Diplomacia,0.0,2.0,India (Times of India),22 Indian vessels still stuck in Strait of Hormuz,Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Diplomacia,0.3370370370370371,5.4,India (Times of India),YouTuber Ms Rachel’s 1-year-old daughter’s advanced vocabulary sparks debate among parents,Neutral / Global,,
+2026-03-18 09:17:19,Global South,,Militar,-0.14375,3.4,India (Times of India),Mumbai court rejects BMC mayor Ritu Tawde’s discharge plea in 2016 teacher assault case,Neutral / Global,,
+2026-03-18 09:17:19,MENA/Irán,,Diplomacia,-0.2,7.0,India (Times of India),'Was at his daughter’s house': Inside the strike that killed Iran security chief Larijani,Eje de Resistencia (Irán),,
+2026-03-18 09:24:43,MENA/Irán,,Diplomacia,0.284090909090909,7.8,Rusia (TASS/Mirror),Iran’s nuclear weapons issue depends on new leader’s position — top diplomat,Eje de Resistencia (Irán),,
+2026-03-18 09:24:43,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Middle East escalation to hit global energy security — China’s envoy,Pro-China,,
+2026-03-18 09:27:59,Global South,,Militar,0.0,2.0,Rusia (TASS/Mirror),"FACTBOX: Drone attacks kill one in Krasnodar, leave two minors wounded in Adygea",Neutral / Global,,
+2026-03-18 09:28:00,Global South,,Militar,0.0,2.0,Mundo Árabe (Al Jazeera),Do Taliban’s drone attacks expose a chink in Pakistan’s armour?,Neutral / Global,,
+2026-03-18 09:28:00,MENA/Irán,,Militar,0.05,5.5,Mundo Árabe (Al Jazeera),"Aftermath of Iranian ‘revenge’ strikes on Israel leaves destruction, two ki",Eje de Resistencia (Irán),,
+2026-03-18 09:28:01,Eurasia,,Militar,-0.1270833333333333,6.3,India (Times of India),India buys more Russian crude oil amid US-Iran war; tankers headed to China make U-turn,Pro-China,,
+2026-03-18 09:35:26,Eurasia,,,-0.0777777777777777,2.8,Rusia (TASS),German exports to Russia down 5.3% in April month-on-month,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,-0.1,3.0,Rusia (TASS),Khrunichev Center begins production of three Angara-A5M rockets for launching ROS modules,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Gagauzia head faces court: recent developments,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Trump-Musk clash costs both hefty sums in one day — media,,102.46,4989.1
+2026-03-18 09:35:26,Occidente,,,0.0,2.0,Rusia (TASS),Press review: Europe seeks to block US-Russia thaw as Russia eyes role in US-Iran talks,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.5,7.0,Rusia (TASS),Israel to continue striking Beirut until Lebanon disarms Hezbollah — defense minister,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.025,2.3,Rusia (TASS),"WHO reports over 8,500 global attacks on health facilities since 2018 — director general",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,-0.4375,6.4,Rusia (TASS),Shadow of 'potential brutal divorce' between Trump-Musk looms over Republicans — TV,,102.46,4989.1
+2026-03-18 09:35:26,Occidente,,,0.0,2.0,Rusia (TASS),"EU must conclude arms limitation agreement with Russia, says Orban",,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.3,5.0,Rusia (TASS),Bank of Russia sells yuan worth $83 mln with settlements on June 5,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),"Attacks ahead of meeting between IAEA, Rosatom chiefs 'pressure tool,' ZNPP believes",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,-0.05,2.5,Rusia (TASS),"Dodon calls on Sandu, Recean not to succumb to Western attempts to drag Moldova into war",,102.46,4989.1
+2026-03-18 09:35:26,Occidente,,,0.0,2.0,Rusia (TASS),Zelensky’s regime bears all hallmarks of terrorist organization — Russian senator,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0037037037037037,2.0,Rusia (TASS),Russian stocks down as main trading session opens,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),"Rosatom CEO, IAEA chief meet in Kaliningrad",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Ukraine strikes hotel in ZNPP satellite city of Energodar with drone,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Ukrainian army retreating from Komar community in western Donetsk region,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.3111111111111111,5.1,Rusia (TASS),"Putin enjoys strong support among Russian people, latest poll shows",,102.46,4989.1
+2026-03-18 09:35:26,Occidente,,,0.0,2.0,Rusia (TASS),Orban sees EU bracing for another decade of countering Russia amid proxy war in Ukraine,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Death toll in Ukrainian attack on Kursk Region's Rylsk climbs to two,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),Russia’s FAB bomb wipes out Ukrainian army platoon in southwestern Donetsk region,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),"Russia to defend rights of Russian speakers in Ukraine to resolve crisis, says Lavrov",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,-0.5,7.0,Rusia (TASS),"No basis for return to START now, scenario increasingly unrealistic — MFA",,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.15,3.5,Rusia (TASS),"US Golden Dome project could obstruct arms control, senior Russian diplomat warns",,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),Over 80% of Russians trust Putin — poll,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0681818181818181,2.7,Rusia (TASS),Gazprom files new lawsuit against Naftogaz of Ukraine in Russian court,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),FACTBOX: Ukrainian UAVs attacks Russian regions in night hours,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,-0.1555555555555555,3.6,Rusia (TASS),MOEX Index down 0.16% as morning trading session opens,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),"Belgorod Region governor reports blown-up railroad tracks, no injuries",,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),PREVIEW: President Putin to chair session of National Projects’ Council,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),Ukraine’s Zelensky turns terrorism into ideology of his country — Russian lawmaker,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.3,5.0,Rusia (TASS),Golden Dome missile shield project turns space into arena of armed confrontation — Ryabkov,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,-0.0999999999999999,3.0,Rusia (TASS),At least 12 children injured in bus accident in Russia’s Far East,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,-0.1555555555555555,3.6,Rusia (TASS),Air defenses down 10 Ukrainian drones targeting Moscow — Mayor Sobyanin,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0666666666666666,2.7,Rusia (TASS),UK engaged in search of external enemy amid domestic economic problems — diplomat,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),SpaceX may decommission ISS-bound Dragon spacecraft after Trump’s statements — Musk,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Israel delivers 17 strikes on Beirut’s southern suburbs — TV,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),"Russia, Chad reaffirm plans to step up political dialogue — MFA",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),"US gave Ukraine all weapons promised by Biden, former Ukrainian president says",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Musk says Trump should be impeached,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Israel strikes Hezbollah targets in Beirut suburbs — IDF,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Doctors examine 3 children whose mother died in shelling of Rylsk in Kursk Region,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.5,7.0,Rusia (TASS),"Hamas did not reject Witkoff’s latest proposal on Gaza, leader says",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.25,4.5,Rusia (TASS),Uzbekistan qualifies for FIFA world cup for the first time,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,-0.6,8.0,Rusia (TASS),Trump says Musk 'went crazy' while leading DOGE,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Almost one in three Gaza residents displaced since end of ceasefire — UN,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),"Drone incidents at NPPs pose nuclear risk, must stop — IAEA chief",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),"IAEA inspectors report hearing gunfire at ZNPP, presumably targeting drones — IAEA chief",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Over 90% of families in Gaza have no money to buy food — UN,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.2,4.0,Rusia (TASS),Lebanese forces dismantle more than 500 military installations in country’s south — PM,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Musk claims Trump would not have won presidency without him,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.05,2.5,Rusia (TASS),Far Eastern terminal to double transshipment in Vanino port,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),Russian stock market indices mixed on Thursday — market data,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),Russian MFA says UK uses British Council to erode sovereignty of countries,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Israeli PM confirms enlisting Palestinian clans in Gaza to fight against Hamas,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),Nissan filed applications for trademarks in Russia — patent authority,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,-0.1555555555555555,3.6,Rusia (TASS),Passenger transport market in Russia down 65% in 4M 2025 — Kamaz,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),Russian ambassador to UK describes Kiev’s attack on Russian airfields as escalation,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),"Azerbaijani, Russian diplomats talk Baku-Moscow relations",,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),Russian MFA warns countries against working with organizations like British Council,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),"UN comments on Trump’s threats to sanction Russia, Ukraine",,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),Trump says urged Putin against responding to Ukraine's recent strikes on Russia,,102.46,4989.1
+2026-03-18 09:35:26,Occidente,,,0.0,2.0,Rusia (TASS),Slovak PM asks that Ukraine peace language be included in EU Council final statement,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),Russian bishop describes Putin-pope call as long-awaited yet jolting,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),Trump does not think Russia 'playing games' in Ukraine settlement,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),"US, China settle some disputed issues in trade — Trump",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,-0.0212121212121212,2.2,Rusia (TASS),"Trump, Xi agree to hold new round of trade negotiations as soon as possible",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,-0.8,10.0,Rusia (TASS),Kursk Region woman describes surviving violent attack by Ukrainian troops,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.2,4.0,Rusia (TASS),"Trump says he is ready to impose sanctions on Russia, Ukraine if no peace deal is made",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Gazrom Neft develops technologies making oil lifting cheaper,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Gazprom Neft creates chemicals increasing oil recovery factor,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),Russia deems Radio Echo activities undesirable in country,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),Gas consumption in Russia rises by 5.2% in 2024 to 521.5 bcm — Gazprom,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.25,4.5,Rusia (TASS),"Russia, Iran interested in preventing tensions around Tehran’s nuclear program — MFA",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,-0.1,3.0,Rusia (TASS),"Ukrainian military gassed civilians in Sudzha district, set fire to their homes — witness",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Trump expects solution to Ukraine conflict to be found eventually,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),US blocking Gaza resolution signifies Washington's moral decay — Iranian MFA,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Gazprom increased gas supplies to Uzbekistan by 4.4 times in 2024,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),"Russia’s declining inflation opens door to easing monetary policy, lowering key rate",,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),Trump says venue and date of his meeting with China’s Xi to be announced later,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,-0.2,4.0,Rusia (TASS),"Kamaz forecasts sales of 40,000-60,000 heavy haulers in Russia this year",,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,-0.1125,3.1,Rusia (TASS),West tries to prevent Russia's return to ECOSOC with pressure — Foreign Ministry,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,-0.1,3.0,Rusia (TASS),"People in seized Kursk Region village spent nights in bushes, eyewitness says",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,-0.2,4.0,Rusia (TASS),Traces of electric shock devices found on bodies of killed civilians in Kursk Region,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Over 1.6 mln Muslims performing Hajj pilgrimage to Mecca in 2025,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Authorities eyeing targeted support for coal businesses,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0666666666666666,2.7,Rusia (TASS),Germany issues arrest warrant for Russian man suspected of supporting ISIS,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),"Ukrainian attack kills civilian, leaves another six injured in Russia’s Kursk Region",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Palestinian parliament speaker condemns US for vetoing resolution on Palestine,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.5,7.0,Rusia (TASS),"In Kursk villages, many locals lost lives to Ukrainian grenades trying to shield families",,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,-0.0333333333333333,2.3,Rusia (TASS),It is essential to sustain Russia’s economic growth at least at 2%,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.0,2.0,Rusia (TASS),Bank of Russia sets official dollar rate at 79.13 rubles for June 6,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.1124999999999999,3.1,Rusia (TASS),"Victim of terror attack in St. Petersburg wins $1,900 lawsuit against perpetrator Trepova",,102.46,4989.1
+2026-03-18 09:35:26,Occidente,,,0.0,2.0,Rusia (TASS),Georgian politician demands EU bureaucrats respect republic's sovereignty,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),"10,000th Haval vehicle assembled in Kaluga Region",,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Donetsk official urges reporters to intensify efforts to counter Western media attacks,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.3666666666666667,5.7,Rusia (TASS),Clean Arctic project to focus on World War II memorial locations,,102.46,4989.1
+2026-03-18 09:35:26,Eurasia,,,0.1363636363636363,3.4,Rusia (TASS),Slovak parliament mandates Cabinet vote against new anti-Russian sanctions — news agency,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,-0.2,4.0,Rusia (TASS),Driving force behind key rate hike shielding economy from overheating reached,,102.46,4989.1
+2026-03-18 09:35:26,Global South,,,0.0,2.0,Rusia (TASS),Environment volunteers to have key events in Karelia along Kochkoma - Reboly road,,102.46,4989.1
+2026-03-18 09:39:28,Eurasia,,,0.0,2.0,Rusia (TASS),Israel carries out another series of strikes on command centers in Tehran — army,Eje Resistencia (MENA),102.66,4992.9

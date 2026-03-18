@@ -1,13 +1,11 @@
 #!/bin/bash
 cd /home/dietpi/geopol_dashboard
 
-# Activar entorno virtual
+# Activar venv y recolectar
 source venv/bin/activate
+python3 scripts/harvester.py
 
-# Ejecutar el scrapper y NLP
-python3 etl_geopol.py
-
-# Subir a GitHub
-git add data/geopol_data.csv
-git commit -m "Auto-update geopolitical data: $(date)"
+# Sincronizar Código y Datos
+git add app.py scripts/harvester.py update_repo.sh data/geopol_data.csv
+git commit -m "SITREP Auto-Update: $(date)"
 git push origin main
