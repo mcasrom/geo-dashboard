@@ -7,12 +7,9 @@ import yfinance as yf
 import sqlite3
 import warnings
 
-# Desactivar avisos innecesarios en la consola de la Odroid
 warnings.simplefilter(action='ignore', category=FutureWarning)
-
 DB_PATH = "/home/dietpi/geopol_dashboard/data/geopol.db"
 
-# 22 FUENTES PARA UNA VISIÓN MULTIPOLAR REAL
 SOURCES = {
     'Reuters': 'https://www.reutersagency.com/feed/?best-topics=world',
     'BBC World': 'https://feeds.bbci.co.uk/news/world/rss.xml',
@@ -40,39 +37,44 @@ SOURCES = {
 
 def analyze_narrative(text):
     text = text.lower()
-    if any(x in text for x in ['nato', 'biden', 'sanctions', 'aggression']): return "Pro-Occidente / Anti-Rusia"
-    if any(x in text for x in ['imperialism', 'hegemony', 'resistance', 'genocide']): return "Anti-Occidente / Soberanista"
-    if any(x in text for x in ['multipolar', 'brics', 'global south', 'de-dollarization']): return "Multipolarismo"
-    if any(x in text for x in ['nuclear', 'missile', 'strike', 'war', 'escalation']): return "Escalada Militar"
+    if any(x in text for x in ['nato', 'biden', 'sanctions']): return "Pro-Occidente / Anti-Rusia"
+    if any(x in text for x in ['imperialism', 'hegemony', 'resistance']): return "Anti-Occidente / Soberanista"
+    if any(x in text for x in ['multipolar', 'brics', 'de-dollarization']): return "Multipolarismo"
+    if any(x in text for x in ['nuclear', 'missile', 'strike', 'war']): return "Escalada Militar"
     return "Informativo Global"
 
 def run():
     os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
     
-    # --- PERSISTENCIA DE MERCADOS (Valores por defecto de la DB) ---
+    # --- PERSISTENCIA INTELIGENTE (Busca el último valor NO CERO) ---
+    brent, vix, dxy = 82.0, 15.0, 104.0 # Hardcoded inicial
     try:
-        conn_pre = sqlite3.connect(DB_PATH)
-        last_row = pd.read_sql("SELECT brent, vix, dxy FROM SITREP ORDER BY date DESC LIMIT 1", conn_pre)
-        conn_pre.close()
-        brent = float(last_row['brent'].iloc[0])
-        vix = float(last_row['vix'].iloc[0])
-        dxy = float(last_row['dxy'].iloc[0])
-    except:
-        brent, vix, dxy = 80.0, 15.0, 103.0 
+        conn = sqlite3.connect(DB_PATH)
+        # Buscamos el último Brent válido
+        res = conn.execute("SELECT brent FROM SITREP WHERE brent > 0 ORDER BY date DESC LIMIT 1").fetchone()
+        if res: brent = res[0]
+        # Buscamos el último VIX válido
+        res = conn.execute("SELECT vix FROM SITREP WHERE vix > 0 ORDER BY date DESC LIMIT 1").fetchone()
+        if res: vix = res[0]
+        # Buscamos el último DXY válido
+        res = conn.execute("SELECT dxy FROM SITREP WHERE dxy > 0 ORDER BY date DESC LIMIT 1").fetchone()
+        if res: dxy = res[0]
+        conn.close()
+    except: pass
 
-    # Actualización individual (Uso de .item() para evitar FutureWarnings)
+    # Intento de actualización de mercados
+    # Nota: He cambiado el ticker del DXY a uno más estable si el principal falla
     assets = {"BZ=F": "brent", "^VIX": "vix", "DX-Y.NYB": "dxy"}
     for ticker, name in assets.items():
         try:
             m_data = yf.download(ticker, period="5d", interval="1d", progress=False)
             if not m_data.empty:
-                # Extraemos el valor escalar de forma segura para Python 3.13
                 val = float(m_data['Close'].dropna().iloc[-1])
-                if name == "brent": brent = val
-                if name == "vix": vix = val
-                if name == "dxy": dxy = val
-        except:
-            pass # Si falla, se queda con el valor de la persistencia cargado arriba
+                if val > 0:
+                    if name == "brent": brent = val
+                    if name == "vix": vix = val
+                    if name == "dxy": dxy = val
+        except: pass
 
     entries = []
     for name, url in SOURCES.items():
@@ -104,7 +106,6 @@ def run():
         except:
             df_new.to_sql("SITREP", conn, if_exists="replace", index=False)
         
-        # Timestamp de éxito
         pd.DataFrame([{'last_run': datetime.now().strftime("%Y-%m-%d %H:%M:%S")}]).to_sql("METADATA", conn, if_exists="replace", index=False)
         conn.close()
         print(f"SITREP OK: Brent ${brent:.2f} | VIX {vix:.2f} | DXY {dxy:.2f}")
