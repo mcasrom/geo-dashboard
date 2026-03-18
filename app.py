@@ -2,75 +2,112 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import sqlite3
+import folium
+from streamlit_folium import st_folium
 from datetime import datetime
 
-st.set_page_config(page_title="WAR ROOM - Intel Terminal", layout="wide")
+# --- CONFIGURACIÓN ---
+st.set_page_config(page_title="WAR ROOM - Intel Terminal V7.1", layout="wide", page_icon="📡")
 
-# --- CARGA DE DATOS ---
-def load_intel():
-    conn = sqlite3.connect("data/geopol.db")
-    df = pd.read_sql("SELECT * FROM SITREP ORDER BY date DESC", conn)
-    conn.close()
-    df['date'] = pd.to_datetime(df['date'])
-    return df
+# Estilo visual de terminal
+st.markdown("""<style>
+    .stMetric { background: #1c212d; padding: 15px; border-radius: 10px; border: 1px solid #30363d; }
+    .stExpander { border: 1px solid #30363d; background: #0e1117; }
+</style>""", unsafe_allow_html=True)
 
-df = load_intel()
+@st.cache_data(ttl=60)
+def load_data():
+    try:
+        conn = sqlite3.connect("data/geopol.db")
+        df = pd.read_sql("SELECT * FROM SITREP ORDER BY date DESC", conn)
+        meta = pd.read_sql("SELECT last_run FROM METADATA", conn)
+        conn.close()
+        
+        # --- LIMPIEZA ANTI-CRASH (Crucial) ---
+        df['theatre'] = df['theatre'].fillna("Global / Otros").astype(str)
+        for col in ['sentiment_score', 'impacto', 'brent', 'vix']:
+            df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0.0)
+        
+        df['date'] = pd.to_datetime(df['date'])
+        return df, meta['last_run'].iloc[0]
+    except:
+        return pd.DataFrame(), "Pendiente"
 
-# --- SIDEBAR (Estado de Alerta) ---
+df, last_update = load_data()
+
+# --- SIDEBAR (Copyright & Intel Status) ---
 with st.sidebar:
-    st.title("🎖️ STRATEGIC STATUS")
-    if not df.empty:
-        vix = df['vix'].iloc[0]
-        # Cálculo de Escalada: Frecuencia de noticias de alto impacto en las últimas 12h
-        high_impact = df[df['impacto'] > 12]
-        escalation_score = len(high_impact) / 10 # Ratio de crisis
-        
-        st.metric("ÍNDICE DE ESCALADA", f"{escalation_score:.1f}", 
-                  delta="CRÍTICO" if escalation_score > 1.5 else "BAJO", delta_color="inverse")
-        
-        st.divider()
-        st.write("**Resumen de Mercados:**")
-        st.metric("BRENT", f"${df['brent'].iloc[0]:.2f}")
-        st.metric("VIX (FEAR)", f"{vix:.2f}")
-
-# --- PANTALLA PRINCIPAL ---
-st.title("📡 TERMINAL DE INTELIGENCIA ESTRATÉGICA")
-
-tabs = st.tabs(["🔥 WAR ROOM", "💹 CORRELACIÓN", "📊 RADAR", "📚 ARCHIVO"])
-
-with tabs[0]:
-    st.subheader("📍 Síntesis por Teatros de Crisis")
-    col1, col2 = st.columns(2)
+    st.title("🎖️ INTEL COMMAND")
+    st.write(f"**Sincronización:**\n`{last_update}`")
     
-    # Agrupación por Teatros para la síntesis
-    theatres = df['theatre'].unique()
-    for i, t in enumerate(theatres):
-        with col1 if i % 2 == 0 else col2:
+    if not df.empty:
+        b_val = df[df['brent'] > 0]['brent'].iloc[0] if not df[df['brent'] > 0].empty else 0.0
+        v_val = df[df['vix'] > 0]['vix'].iloc[0] if not df[df['vix'] > 0].empty else 0.0
+        
+        st.metric("BRENT CRUDE", f"${b_val:.2f}")
+        st.metric("VIX (FEAR INDEX)", f"{v_val:.2f}", delta="ALERTA" if v_val > 20 else "ESTABLE", delta_color="inverse")
+    
+    st.divider()
+    st.info("© 2024 M.Castillo\n\n📧 mybloggingnotes@gmail.com")
+    st.caption("Intelligence Unit - Odroid-C2")
+
+# --- HEADER ---
+st.title("🌍 SITREP GEOPOLÍTICO MULTIPOLAR")
+
+if df.empty:
+    st.error("📡 DB Vacía. Ejecuta harvester.py.")
+    st.stop()
+
+# KPIs Superiores
+k1, k2, k3, k4 = st.columns(4)
+k1.metric("INTEL CAPTURADA", len(df))
+k2.metric("FUENTES ACTIVAS", df['fuente'].nunique())
+escalation = len(df[df['impacto'] > 12]) / 10
+k3.metric("RIESGO ESCALADA", f"{escalation:.1f}", delta="ALTO" if escalation > 1 else "BAJO", delta_color="inverse")
+k4.metric("VOLATILIDAD BRENT", f"{df['brent'].std():.2f}")
+
+st.divider()
+
+# --- TABS ---
+t_war, t_radar, t_merc, t_map, t_met = st.tabs(["🔥 WAR ROOM", "📊 Radar", "💹 Mercados", "🗺 Mapa", "🛠 Metodología"])
+
+with t_war:
+    st.subheader("📍 Síntesis por Teatros de Operaciones")
+    col_a, col_b = st.columns(2)
+    
+    # Agrupación por teatros con protección de tipos
+    theatres_list = [t for t in df['theatre'].unique() if t]
+    for i, t in enumerate(theatres_list):
+        with col_a if i % 2 == 0 else col_b:
             t_data = df[df['theatre'] == t].head(5)
             avg_impact = t_data['impacto'].mean()
             
-            with st.expander(f"🎭 {t.upper()} (Impacto: {avg_impact:.1f})", expanded=avg_impact > 10):
+            # str(t).upper() previene el error AttributeError
+            with st.expander(f"🎭 {str(t).upper()} (Impacto: {avg_impact:.1f})", expanded=avg_impact > 10):
                 for _, row in t_data.iterrows():
-                    color = "🔴" if row['impacto'] > 12 else "🟡"
-                    st.write(f"{color} **{row['fuente']}**: {row['titulo']}")
-                
-                if t == "Suministro Energético" and avg_impact > 10:
-                    st.error("⚠️ CONCLUSIÓN: Alta probabilidad de presión alcista en el crudo por eventos en cuellos de botella.")
+                    st.write(f"- **{row['fuente']}**: {row['titulo']}")
 
-with tabs[1]:
-    st.subheader("📈 Correlación Eventos vs Precios")
-    st.write("Este gráfico muestra cómo las noticias de alto impacto coinciden con movimientos del Brent.")
-    fig = px.scatter(df.head(200), x="brent", y="impacto", color="theatre", 
-                     size="impacto", hover_name="titulo", template="plotly_dark")
+with t_radar:
+    fig = px.scatter(df.head(400), x="date", y="sentiment_score", size="impacto", color="theatre",
+                     hover_name="titulo", height=600, template="plotly_dark")
     st.plotly_chart(fig, use_container_width=True)
 
-with tabs[2]:
-    # El radar clásico pero optimizado
-    fig_radar = px.scatter(df.head(300), x="date", y="sentiment_score", size="impacto", color="theatre",
-                           height=600, template="plotly_dark")
-    st.plotly_chart(fig_radar, use_container_width=True)
+with t_merc:
+    st.subheader("Correlación Brent vs Pánico (VIX)")
+    st.line_chart(df.set_index('date')[['brent', 'vix']])
 
-with tabs[3]:
-    st.dataframe(df[['date', 'fuente', 'theatre', 'titulo', 'impacto']], use_container_width=True)
+with t_map:
+    m = folium.Map(location=[25, 45], zoom_start=3, tiles="CartoDB dark_matter")
+    hotspots = {"Ormuz": [26, 56], "Bab el-Mandeb": [12, 43], "Taiwán": [23, 121], "Donbás": [48, 37]}
+    for n, c in hotspots.items():
+        folium.Marker(c, popup=n, icon=folium.Icon(color="red", icon="warning-sign")).add_to(m)
+    st_folium(m, width="100%", height=500)
 
-st.caption("© 2024 M.Castillo | V 7.0 Intel Correlacional | Odroid-C2 Deploy")
+with t_met:
+    st.header("Metodología de Inteligencia V 7.1")
+    st.markdown("""
+    - **Teatros de Operaciones:** Clasificación automática por palabras clave en 22 fuentes.
+    - **Cálculo de Impacto:** Polaridad NLP + Bonificación por términos de combate (Attack, Strike, Missile).
+    - **Correlación:** Cruce de eventos en tiempo real con precios de commodities (Yahoo Finance).
+    - **Persistencia:** Base de datos SQLite optimizada para Odroid-C2.
+    """)
