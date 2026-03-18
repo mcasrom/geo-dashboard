@@ -1,214 +1,196 @@
-date,bloque,title,tema,sentiment_score
-2026-03-17 20:33:48,Occidente_USA,"Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course'",Conflicto Medio Oriente,-0.6597
-2026-03-17 20:33:48,Occidente_USA,Israel says it killed Iranian security chief Ali Larijani in air strike,Conflicto Medio Oriente,-0.5574
-2026-03-17 20:33:48,Occidente_USA,Water supply cut in Moldova after oil spill blamed on Russian strike in Ukraine,Comercio/Petroleo,-0.6908
-2026-03-17 20:33:48,Occidente_USA,Trump seeks to delay meeting with Xi in China,General,-0.3182
-2026-03-17 20:33:48,Occidente_USA,What have US allies and China said about sending ships to the Strait of Hormuz?,General,0.0
-2026-03-17 20:33:48,Occidente_USA,Surge in US gas prices deepens political peril for Trump over Iran,Conflicto Medio Oriente,-0.4019
-2026-03-17 20:33:48,Occidente_USA,Gas on the line: will the Iran war squeeze India's piped gas next?,Conflicto Medio Oriente,-0.5994
-2026-03-17 20:33:48,Occidente_USA,Wary allies show there's no quick fix to Trump's Iran crisis,Conflicto Medio Oriente,-0.743
-2026-03-17 20:33:48,Occidente_USA,"'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",Conflicto Medio Oriente,-0.7964
-2026-03-17 20:33:48,Occidente_USA,"Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",Conflicto Medio Oriente,-0.2023
-2026-03-17 20:33:48,Occidente_USA,Why did only two Iranian football players stay in Australia?,Conflicto Medio Oriente,0.0
-2026-03-17 20:33:48,Occidente_USA,Watch: Reunion resident gets close to lava from erupting volcano,OTAN/UE,0.0
-2026-03-17 20:33:48,OrienteMedio_Qatar,Trump says it’s a ‘good thing’ counterterrorism director resigned over Iran,Conflicto Medio Oriente,-0.25
-2026-03-17 20:33:48,OrienteMedio_Qatar,"Starmer, Zelenskyy urge ‘focus’ on Ukraine as Iran war diverts attention",Conflicto Medio Oriente,-0.5994
-2026-03-17 20:33:48,OrienteMedio_Qatar,Video: Man rescued from under rubble after attack in Iran,Conflicto Medio Oriente,-0.0772
-2026-03-17 20:33:48,OrienteMedio_Qatar,"Israel carrying out ‘mass expulsion of Palestinians’ in West Bank, UN warns",Conflicto Medio Oriente,-0.1027
-2026-03-17 20:33:48,OrienteMedio_Qatar,Why Iranians are taking to Tehran’s streets during war,Conflicto Medio Oriente,-0.5994
-2026-03-17 20:33:48,OrienteMedio_Qatar,Video: What we know about Israel’s assault on southern Lebanon,Conflicto Medio Oriente,-0.5859
-2026-03-17 20:33:48,OrienteMedio_Qatar,What the Iran war looks like from the occupied West Bank,Conflicto Medio Oriente,-0.34
-2026-03-17 20:33:48,OrienteMedio_Qatar,"Why aren’t gold prices rising, despite Iran war uncertainty?",Conflicto Medio Oriente,0.6348
-2026-03-17 20:33:48,OrienteMedio_Qatar,"Liverpool vs Galatasaray: UEFA Champions League – teams, start, lineups",OTAN/UE,0.5267
-2026-03-17 20:33:48,OrienteMedio_Qatar,"Israeli attacks on Lebanon may amount to war crimes, UN rights office says",Conflicto Medio Oriente,-0.7783
-2026-03-17 20:33:48,OrienteMedio_Qatar,"Who is Gholamreza Soleimani, the commander of Iran’s Basij forces?",Conflicto Medio Oriente,0.0
-2026-03-17 20:33:48,OrienteMedio_Qatar,US National Counterterrorism Center director Joe Kent resigns over Iran war,Conflicto Medio Oriente,-0.7351
-2026-03-17 20:33:48,OrienteMedio_Qatar,US envoys meet Hamas in Cairo to salvage fragile Gaza truce,General,0.0
-2026-03-17 20:33:48,OrienteMedio_Qatar,Macron prepares France for ‘an age of nuclear weapons’ as Iran war rages,Conflicto Medio Oriente,-0.7906
-2026-03-17 20:33:48,OrienteMedio_Qatar,The US-Israel war on Iran is shaped by religion as much as strategy,Conflicto Medio Oriente,-0.5994
-2026-03-17 20:33:48,OrienteMedio_Qatar,"Iran blames US, Israel for Hormuz tensions as crisis risks energy supplies",Conflicto Medio Oriente,-0.8591
-2026-03-17 20:33:49,Rusia_TASS,"Lavrov, Fidan discuss Iran war, energy projects — Russian Foreign Ministry",Conflicto Medio Oriente,-0.4215
-2026-03-17 20:33:49,Rusia_TASS,US allies reluctant to get involved in operation against Iran — Trump,Conflicto Medio Oriente,-0.25
-2026-03-17 20:33:49,Rusia_TASS,Trump says Europe unwilling to help US with Iran after American support regarding Ukraine,Conflicto Medio Oriente,0.6597
-2026-03-17 20:33:49,Rusia_TASS,Iranian soldiers write messages on missiles telling US to get out of Middle East,Conflicto Medio Oriente,0.0
-2026-03-17 20:33:49,Rusia_TASS,Spain to release up to 11.5 mln barrels from strategic oil reserves,Comercio/Petroleo,0.0
-2026-03-17 20:33:49,Rusia_TASS,"Pentagon says Iran's space program ""destructed""",Conflicto Medio Oriente,-0.4404
-2026-03-17 20:33:49,Rusia_TASS,Slovak PM Fico predicts worsening global oil market situation amid Iran conflict,Comercio/Petroleo,-0.6486
-2026-03-17 20:33:49,Rusia_TASS,"No EU money for Ukraine until Druzhba oil flows resume, Orban says",Comercio/Petroleo,-0.296
-2026-03-17 20:33:49,Rusia_TASS,EU intends to have Hungary’s ban lifted at forthcoming summit,OTAN/UE,-0.5574
-2026-03-17 20:33:49,Rusia_TASS,"Kiev seeks to further upend oil markets, create utter chaos globally — senator",Comercio/Petroleo,-0.4391
-2026-03-17 20:33:49,Rusia_TASS,Rubio orders US diplomats to influence other nations to take action against Iran — TV,Conflicto Medio Oriente,0.0
-2026-03-17 20:33:49,Rusia_TASS,"Szijjarto scoffs at EU, Zelensky for playing dumb about Druzhba pipe",OTAN/UE,-0.3612
-2026-03-17 20:33:49,Rusia_TASS,Trump allies fear loss of control over situation around Iran,Conflicto Medio Oriente,-0.6705
-2026-03-17 20:33:49,Rusia_TASS,FIFA hopes to see Iranian national team playing at 2026 World Cup,Conflicto Medio Oriente,0.5574
-2026-03-17 20:33:49,Rusia_TASS,EU should return Russian oil to Europe — Szijjarto,Comercio/Petroleo,0.0
-2026-03-17 20:33:49,Rusia_TASS,Euro exchange rate exceeds 95 rubles on interbank market first since January,OTAN/UE,0.0
-2026-03-17 20:33:49,Rusia_TASS,EU provides Ukraine with full terms for joining union,OTAN/UE,0.0
-2026-03-17 20:33:49,Rusia_TASS,Eurasian Development Bank projects oil prices in $75-85 per barrel range in 2026,Comercio/Petroleo,0.0
-2026-03-17 20:33:49,Rusia_TASS,Putin pardons 23 women — Human Rights Council head,General,0.296
-2026-03-17 20:33:49,Rusia_TASS,US intelligence warned of risk of Iran striking Arab countries — Reuters,Conflicto Medio Oriente,-0.0258
-2026-03-17 20:33:49,Rusia_TASS,White House launched operation in Iran without clear strategy — NYT,Conflicto Medio Oriente,-0.1739
-2026-03-17 20:33:49,Rusia_TASS,Iran in talks with FIFA on relocating team's 2026 World Cup matches from US to Mexico,Conflicto Medio Oriente,0.0
-2026-03-17 20:33:49,Rusia_TASS,EU to unveil Russian oil ban plan on April 15 — Szijjarto,Comercio/Petroleo,-0.5574
-2026-03-17 20:33:49,Rusia_TASS,NATO to hardly provide US with military aid in operation against Iran — former assistant,Conflicto Medio Oriente,0.0
-2026-03-17 20:33:49,Rusia_TASS,"If Iran war drags on till June, 45 million people could face starvation — UN",Conflicto Medio Oriente,-0.6808
-2026-03-17 20:33:49,Rusia_TASS,Goal of US-Israel operation in Iran remains unclear — EU Council chief,Conflicto Medio Oriente,-0.25
-2026-03-17 20:33:49,Rusia_TASS,Trump postpones visit to China due to lack of strong negotiating position — expert,General,-0.0258
-2026-03-17 20:33:49,Rusia_TASS,Europe needs time to start asking for Russian gas again — Dmitriev,OTAN/UE,0.0
-2026-03-17 20:33:49,Rusia_TASS,EU-US relations once again on brink of collapse over Middle East situation — newspaper,OTAN/UE,-0.4939
-2026-03-17 20:33:49,Rusia_TASS,Iranian envoy denies reports that new supreme leader undergoing treatment in Russia,Conflicto Medio Oriente,0.2023
-2026-03-17 20:33:49,Rusia_TASS,"UK, EU no longer hide their anti-Trump sentiments — Russian envoy",OTAN/UE,-0.1734
-2026-03-17 20:33:49,Rusia_TASS,Trump naive to believe he could choose Iran’s supreme leader — ambassador to Russia,Conflicto Medio Oriente,0.3612
-2026-03-17 20:33:49,Rusia_TASS,EU offers Kiev funds to repair Druzhba oil pipeline,Comercio/Petroleo,0.0
-2026-03-17 20:33:49,Rusia_TASS,Iran delivers new strikes against enemy targets — news agency,Conflicto Medio Oriente,-0.7184
-2026-03-17 20:33:49,Rusia_TASS,No disruption in Iran’s oil exports after US strikes on Kharg Island — Iranian parliament,Comercio/Petroleo,-0.1002
-2026-03-17 20:33:49,Rusia_TASS,Martial law in Strait of Hormuz prevents US from supplying its bases — Iranian ambassador,Conflicto Medio Oriente,0.0772
-2026-03-17 20:33:49,Rusia_TASS,Letter by top Iranian security official claimed dead by Israel emerges on social media,Conflicto Medio Oriente,-0.2732
-2026-03-17 20:33:49,Rusia_TASS,Regional war with Iran will not diminish importance of global conflict in Ukraine — expert,Conflicto Medio Oriente,-0.8079
-2026-03-17 20:33:49,Rusia_TASS,Kiev is dragging out conflict with Russia as it may have share of EU profits — MP,OTAN/UE,0.4215
-2026-03-17 20:33:49,Rusia_TASS,Press review: Tehran pursues attrition as Trump delays China visit amid Iran tensions,Conflicto Medio Oriente,-0.4019
-2026-03-17 20:33:49,Rusia_TASS,"Trump wanted Iranian military to bow to him, but this scenario failed — ambassador",Conflicto Medio Oriente,-0.6652
-2026-03-17 20:33:49,Rusia_TASS,Iranian lawmaker threatens to turn Kharg Island into 'invaders’ cemetery',Conflicto Medio Oriente,-0.3818
-2026-03-17 20:33:49,Rusia_TASS,Euro exchange rate on Forex exceeds 94 rubles first since January,OTAN/UE,0.0
-2026-03-17 20:49:56,Occidente_USA,"Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course'",Conflicto Medio Oriente,-0.6597
-2026-03-17 20:49:56,Occidente_USA,Israel says it killed Iranian security chief Ali Larijani in air strike,Conflicto Medio Oriente,-0.5574
-2026-03-17 20:49:56,Occidente_USA,Water supply cut in Moldova after oil spill blamed on Russian strike in Ukraine,Comercio/Petroleo,-0.6908
-2026-03-17 20:49:56,Occidente_USA,Trump seeks to delay meeting with Xi in China,General,-0.3182
-2026-03-17 20:49:56,Occidente_USA,What have US allies and China said about sending ships to the Strait of Hormuz?,General,0.0
-2026-03-17 20:49:56,Occidente_USA,Surge in US gas prices deepens political peril for Trump over Iran,Conflicto Medio Oriente,-0.4019
-2026-03-17 20:49:56,Occidente_USA,Gas on the line: will the Iran war squeeze India's piped gas next?,Conflicto Medio Oriente,-0.5994
-2026-03-17 20:49:56,Occidente_USA,Wary allies show there's no quick fix to Trump's Iran crisis,Conflicto Medio Oriente,-0.743
-2026-03-17 20:49:56,Occidente_USA,"'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",Conflicto Medio Oriente,-0.7964
-2026-03-17 20:49:56,Occidente_USA,"Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",Conflicto Medio Oriente,-0.2023
-2026-03-17 20:49:56,Occidente_USA,Why did only two Iranian football players stay in Australia?,Conflicto Medio Oriente,0.0
-2026-03-17 20:49:56,Occidente_USA,Watch: Reunion resident gets close to lava from erupting volcano,OTAN/UE,0.0
-2026-03-17 20:49:56,OrienteMedio_Qatar,Trump says it’s a ‘good thing’ counterterrorism director resigned over Iran,Conflicto Medio Oriente,-0.25
-2026-03-17 20:49:56,OrienteMedio_Qatar,"Starmer, Zelenskyy urge ‘focus’ on Ukraine as Iran war diverts attention",Conflicto Medio Oriente,-0.5994
-2026-03-17 20:49:56,OrienteMedio_Qatar,Video: Man rescued from under rubble after attack in Iran,Conflicto Medio Oriente,-0.0772
-2026-03-17 20:49:56,OrienteMedio_Qatar,"Israel carrying out ‘mass expulsion of Palestinians’ in West Bank, UN warns",Conflicto Medio Oriente,-0.1027
-2026-03-17 20:49:56,OrienteMedio_Qatar,Why Iranians are taking to Tehran’s streets during war,Conflicto Medio Oriente,-0.5994
-2026-03-17 20:49:56,OrienteMedio_Qatar,Video: What we know about Israel’s assault on southern Lebanon,Conflicto Medio Oriente,-0.5859
-2026-03-17 20:49:56,OrienteMedio_Qatar,What the Iran war looks like from the occupied West Bank,Conflicto Medio Oriente,-0.34
-2026-03-17 20:49:56,OrienteMedio_Qatar,"Why aren’t gold prices rising, despite Iran war uncertainty?",Conflicto Medio Oriente,0.6348
-2026-03-17 20:49:56,OrienteMedio_Qatar,"Liverpool vs Galatasaray: UEFA Champions League – teams, start, lineups",OTAN/UE,0.5267
-2026-03-17 20:49:56,OrienteMedio_Qatar,"Israeli attacks on Lebanon may amount to war crimes, UN rights office says",Conflicto Medio Oriente,-0.7783
-2026-03-17 20:49:56,OrienteMedio_Qatar,"Who was Gholamreza Soleimani, killed commander of Iran’s Basij forces?",Conflicto Medio Oriente,-0.6705
-2026-03-17 20:49:56,OrienteMedio_Qatar,US National Counterterrorism Center director Joe Kent resigns over Iran war,Conflicto Medio Oriente,-0.7351
-2026-03-17 20:49:56,OrienteMedio_Qatar,US envoys meet Hamas in Cairo to salvage fragile Gaza truce,General,0.0
-2026-03-17 20:49:56,OrienteMedio_Qatar,Macron prepares France for ‘an age of nuclear weapons’ as Iran war rages,Conflicto Medio Oriente,-0.7906
-2026-03-17 20:49:56,OrienteMedio_Qatar,The US-Israel war on Iran is shaped by religion as much as strategy,Conflicto Medio Oriente,-0.5994
-2026-03-17 20:49:57,Rusia_TASS,"Czech, Slovak officials to discuss expert examination of Druzhba oil pipeline",Comercio/Petroleo,0.0
-2026-03-17 20:49:57,Rusia_TASS,"Lavrov, Fidan discuss Iran war, energy projects — Russian Foreign Ministry",Conflicto Medio Oriente,-0.4215
-2026-03-17 20:49:57,Rusia_TASS,US allies reluctant to get involved in operation against Iran — Trump,Conflicto Medio Oriente,-0.25
-2026-03-17 20:49:57,Rusia_TASS,Trump says Europe unwilling to help US with Iran after American support regarding Ukraine,Conflicto Medio Oriente,0.6597
-2026-03-17 20:49:57,Rusia_TASS,Iranian soldiers write messages on missiles telling US to get out of Middle East,Conflicto Medio Oriente,0.0
-2026-03-17 20:49:57,Rusia_TASS,Spain to release up to 11.5 mln barrels from strategic oil reserves,Comercio/Petroleo,0.0
-2026-03-17 20:49:57,Rusia_TASS,"Pentagon says Iran's space program ""destructed""",Conflicto Medio Oriente,-0.4404
-2026-03-17 20:49:57,Rusia_TASS,Slovak PM Fico predicts worsening global oil market situation amid Iran conflict,Comercio/Petroleo,-0.6486
-2026-03-17 20:49:57,Rusia_TASS,"No EU money for Ukraine until Druzhba oil flows resume, Orban says",Comercio/Petroleo,-0.296
-2026-03-17 20:49:57,Rusia_TASS,EU intends to have Hungary’s ban lifted at forthcoming summit,OTAN/UE,-0.5574
-2026-03-17 20:49:57,Rusia_TASS,"Kiev seeks to further upend oil markets, create utter chaos globally — senator",Comercio/Petroleo,-0.4391
-2026-03-17 20:49:57,Rusia_TASS,Rubio orders US diplomats to influence other nations to take action against Iran — TV,Conflicto Medio Oriente,0.0
-2026-03-17 20:49:57,Rusia_TASS,"Szijjarto scoffs at EU, Zelensky for playing dumb about Druzhba pipe",OTAN/UE,-0.3612
-2026-03-17 20:49:57,Rusia_TASS,Trump allies fear loss of control over situation around Iran,Conflicto Medio Oriente,-0.6705
-2026-03-17 20:49:57,Rusia_TASS,FIFA hopes to see Iranian national team playing at 2026 World Cup,Conflicto Medio Oriente,0.5574
-2026-03-17 20:49:57,Rusia_TASS,EU should return Russian oil to Europe — Szijjarto,Comercio/Petroleo,0.0
-2026-03-17 20:49:57,Rusia_TASS,Euro exchange rate exceeds 95 rubles on interbank market first since January,OTAN/UE,0.0
-2026-03-17 20:49:57,Rusia_TASS,EU provides Ukraine with full terms for joining union,OTAN/UE,0.0
-2026-03-17 20:49:57,Rusia_TASS,Eurasian Development Bank projects oil prices in $75-85 per barrel range in 2026,Comercio/Petroleo,0.0
-2026-03-17 20:49:57,Rusia_TASS,Putin pardons 23 women — Human Rights Council head,General,0.296
-2026-03-17 20:49:57,Rusia_TASS,US intelligence warned of risk of Iran striking Arab countries — Reuters,Conflicto Medio Oriente,-0.0258
-2026-03-17 20:49:57,Rusia_TASS,White House launched operation in Iran without clear strategy — NYT,Conflicto Medio Oriente,-0.1739
-2026-03-17 20:49:57,Rusia_TASS,Iran in talks with FIFA on relocating team's 2026 World Cup matches from US to Mexico,Conflicto Medio Oriente,0.0
-2026-03-17 20:49:57,Rusia_TASS,EU to unveil Russian oil ban plan on April 15 — Szijjarto,Comercio/Petroleo,-0.5574
-2026-03-17 20:49:57,Rusia_TASS,NATO to hardly provide US with military aid in operation against Iran — former assistant,Conflicto Medio Oriente,0.0
-2026-03-17 20:49:57,Rusia_TASS,"If Iran war drags on till June, 45 million people could face starvation — UN",Conflicto Medio Oriente,-0.6808
-2026-03-17 20:49:57,Rusia_TASS,Goal of US-Israel operation in Iran remains unclear — EU Council chief,Conflicto Medio Oriente,-0.25
-2026-03-17 20:49:57,Rusia_TASS,Trump postpones visit to China due to lack of strong negotiating position — expert,General,-0.0258
-2026-03-17 20:49:57,Rusia_TASS,Europe needs time to start asking for Russian gas again — Dmitriev,OTAN/UE,0.0
-2026-03-17 20:49:57,Rusia_TASS,EU-US relations once again on brink of collapse over Middle East situation — newspaper,OTAN/UE,-0.4939
-2026-03-17 20:49:57,Rusia_TASS,Iranian envoy denies reports that new supreme leader undergoing treatment in Russia,Conflicto Medio Oriente,0.2023
-2026-03-17 20:49:57,Rusia_TASS,"UK, EU no longer hide their anti-Trump sentiments — Russian envoy",OTAN/UE,-0.1734
-2026-03-17 20:49:57,Rusia_TASS,Trump naive to believe he could choose Iran’s supreme leader — ambassador to Russia,Conflicto Medio Oriente,0.3612
-2026-03-17 20:49:57,Rusia_TASS,EU offers Kiev funds to repair Druzhba oil pipeline,Comercio/Petroleo,0.0
-2026-03-17 20:49:57,Rusia_TASS,Iran delivers new strikes against enemy targets — news agency,Conflicto Medio Oriente,-0.7184
-2026-03-17 20:49:57,Rusia_TASS,No disruption in Iran’s oil exports after US strikes on Kharg Island — Iranian parliament,Comercio/Petroleo,-0.1002
-2026-03-17 20:49:57,Rusia_TASS,Martial law in Strait of Hormuz prevents US from supplying its bases — Iranian ambassador,Conflicto Medio Oriente,0.0772
-2026-03-17 20:49:57,Rusia_TASS,Letter by top Iranian security official claimed dead by Israel emerges on social media,Conflicto Medio Oriente,-0.2732
-2026-03-17 20:49:57,Rusia_TASS,Regional war with Iran will not diminish importance of global conflict in Ukraine — expert,Conflicto Medio Oriente,-0.8079
-2026-03-17 20:49:57,Rusia_TASS,Kiev is dragging out conflict with Russia as it may have share of EU profits — MP,OTAN/UE,0.4215
-2026-03-17 20:49:57,Rusia_TASS,Press review: Tehran pursues attrition as Trump delays China visit amid Iran tensions,Conflicto Medio Oriente,-0.4019
-2026-03-17 20:49:57,Rusia_TASS,"Trump wanted Iranian military to bow to him, but this scenario failed — ambassador",Conflicto Medio Oriente,-0.6652
-2026-03-17 20:49:57,Rusia_TASS,Iranian lawmaker threatens to turn Kharg Island into 'invaders’ cemetery',Conflicto Medio Oriente,-0.3818
-2026-03-17 20:49:57,Rusia_TASS,Euro exchange rate on Forex exceeds 94 rubles first since January,OTAN/UE,0.0
-2026-03-17 20:53:54,Occidente_USA,"Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course'",Conflicto Medio Oriente,-0.6597
-2026-03-17 20:53:54,Occidente_USA,Israel says it killed Iranian security chief Ali Larijani in air strike,Conflicto Medio Oriente,-0.5574
-2026-03-17 20:53:54,Occidente_USA,Water supply cut in Moldova after oil spill blamed on Russian strike in Ukraine,Comercio/Petroleo,-0.6908
-2026-03-17 20:53:54,Occidente_USA,Trump seeks to delay meeting with Xi in China,General,-0.3182
-2026-03-17 20:53:54,Occidente_USA,What have US allies and China said about sending ships to the Strait of Hormuz?,General,0.0
-2026-03-17 20:53:54,Occidente_USA,Surge in US gas prices deepens political peril for Trump over Iran,Conflicto Medio Oriente,-0.4019
-2026-03-17 20:53:54,Occidente_USA,Gas on the line: will the Iran war squeeze India's piped gas next?,Conflicto Medio Oriente,-0.5994
-2026-03-17 20:53:54,Occidente_USA,Wary allies show there's no quick fix to Trump's Iran crisis,Conflicto Medio Oriente,-0.743
-2026-03-17 20:53:54,Occidente_USA,"'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",Conflicto Medio Oriente,-0.7964
-2026-03-17 20:53:54,Occidente_USA,"Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",Conflicto Medio Oriente,-0.2023
-2026-03-17 20:53:54,Occidente_USA,Why did only two Iranian football players stay in Australia?,Conflicto Medio Oriente,0.0
-2026-03-17 20:53:54,Occidente_USA,Watch: Reunion resident gets close to lava from erupting volcano,OTAN/UE,0.0
-2026-03-17 20:53:54,OrienteMedio_Qatar,Trump says it’s a ‘good thing’ counterterrorism director resigned over Iran,Conflicto Medio Oriente,-0.25
-2026-03-17 20:53:54,OrienteMedio_Qatar,"Starmer, Zelenskyy urge ‘focus’ on Ukraine as Iran war diverts attention",Conflicto Medio Oriente,-0.5994
-2026-03-17 20:53:54,OrienteMedio_Qatar,Video: Man rescued from under rubble after attack in Iran,Conflicto Medio Oriente,-0.0772
-2026-03-17 20:53:54,OrienteMedio_Qatar,"Israel carrying out ‘mass expulsion of Palestinians’ in West Bank, UN warns",Conflicto Medio Oriente,-0.1027
-2026-03-17 20:53:54,OrienteMedio_Qatar,Why Iranians are taking to Tehran’s streets during war,Conflicto Medio Oriente,-0.5994
-2026-03-17 20:53:54,OrienteMedio_Qatar,Video: What we know about Israel’s assault on southern Lebanon,Conflicto Medio Oriente,-0.5859
-2026-03-17 20:53:54,OrienteMedio_Qatar,What the Iran war looks like from the occupied West Bank,Conflicto Medio Oriente,-0.34
-2026-03-17 20:53:54,OrienteMedio_Qatar,"Why aren’t gold prices rising, despite Iran war uncertainty?",Conflicto Medio Oriente,0.6348
-2026-03-17 20:53:54,OrienteMedio_Qatar,"Liverpool vs Galatasaray: UEFA Champions League – teams, start, lineups",OTAN/UE,0.5267
-2026-03-17 20:53:54,OrienteMedio_Qatar,"Israeli attacks on Lebanon may amount to war crimes, UN rights office says",Conflicto Medio Oriente,-0.7783
-2026-03-17 20:53:54,OrienteMedio_Qatar,"Who was Gholamreza Soleimani, killed commander of Iran’s Basij forces?",Conflicto Medio Oriente,-0.6705
-2026-03-17 20:53:54,OrienteMedio_Qatar,US National Counterterrorism Center director Joe Kent resigns over Iran war,Conflicto Medio Oriente,-0.7351
-2026-03-17 20:53:54,OrienteMedio_Qatar,US envoys meet Hamas in Cairo to salvage fragile Gaza truce,General,0.0
-2026-03-17 20:53:54,OrienteMedio_Qatar,Macron prepares France for ‘an age of nuclear weapons’ as Iran war rages,Conflicto Medio Oriente,-0.7906
-2026-03-17 20:53:54,OrienteMedio_Qatar,The US-Israel war on Iran is shaped by religion as much as strategy,Conflicto Medio Oriente,-0.5994
-2026-03-17 20:53:55,Rusia_TASS,"Czech, Slovak officials to discuss expert examination of Druzhba oil pipeline",Comercio/Petroleo,0.0
-2026-03-17 20:53:55,Rusia_TASS,"Lavrov, Fidan discuss Iran war, energy projects — Russian Foreign Ministry",Conflicto Medio Oriente,-0.4215
-2026-03-17 20:53:55,Rusia_TASS,US allies reluctant to get involved in operation against Iran — Trump,Conflicto Medio Oriente,-0.25
-2026-03-17 20:53:55,Rusia_TASS,Trump says Europe unwilling to help US with Iran after American support regarding Ukraine,Conflicto Medio Oriente,0.6597
-2026-03-17 20:53:55,Rusia_TASS,Iranian soldiers write messages on missiles telling US to get out of Middle East,Conflicto Medio Oriente,0.0
-2026-03-17 20:53:55,Rusia_TASS,Spain to release up to 11.5 mln barrels from strategic oil reserves,Comercio/Petroleo,0.0
-2026-03-17 20:53:55,Rusia_TASS,"Pentagon says Iran's space program ""destructed""",Conflicto Medio Oriente,-0.4404
-2026-03-17 20:53:55,Rusia_TASS,Slovak PM Fico predicts worsening global oil market situation amid Iran conflict,Comercio/Petroleo,-0.6486
-2026-03-17 20:53:55,Rusia_TASS,"No EU money for Ukraine until Druzhba oil flows resume, Orban says",Comercio/Petroleo,-0.296
-2026-03-17 20:53:55,Rusia_TASS,EU intends to have Hungary’s ban lifted at forthcoming summit,OTAN/UE,-0.5574
-2026-03-17 20:53:55,Rusia_TASS,"Kiev seeks to further upend oil markets, create utter chaos globally — senator",Comercio/Petroleo,-0.4391
-2026-03-17 20:53:55,Rusia_TASS,Rubio orders US diplomats to influence other nations to take action against Iran — TV,Conflicto Medio Oriente,0.0
-2026-03-17 20:53:55,Rusia_TASS,"Szijjarto scoffs at EU, Zelensky for playing dumb about Druzhba pipe",OTAN/UE,-0.3612
-2026-03-17 20:53:55,Rusia_TASS,Trump allies fear loss of control over situation around Iran,Conflicto Medio Oriente,-0.6705
-2026-03-17 20:53:55,Rusia_TASS,FIFA hopes to see Iranian national team playing at 2026 World Cup,Conflicto Medio Oriente,0.5574
-2026-03-17 20:53:55,Rusia_TASS,EU should return Russian oil to Europe — Szijjarto,Comercio/Petroleo,0.0
-2026-03-17 20:53:55,Rusia_TASS,Euro exchange rate exceeds 95 rubles on interbank market first since January,OTAN/UE,0.0
-2026-03-17 20:53:55,Rusia_TASS,EU provides Ukraine with full terms for joining union,OTAN/UE,0.0
-2026-03-17 20:53:55,Rusia_TASS,Eurasian Development Bank projects oil prices in $75-85 per barrel range in 2026,Comercio/Petroleo,0.0
-2026-03-17 20:53:55,Rusia_TASS,Putin pardons 23 women — Human Rights Council head,General,0.296
-2026-03-17 20:53:55,Rusia_TASS,US intelligence warned of risk of Iran striking Arab countries — Reuters,Conflicto Medio Oriente,-0.0258
-2026-03-17 20:53:55,Rusia_TASS,White House launched operation in Iran without clear strategy — NYT,Conflicto Medio Oriente,-0.1739
-2026-03-17 20:53:55,Rusia_TASS,Iran in talks with FIFA on relocating team's 2026 World Cup matches from US to Mexico,Conflicto Medio Oriente,0.0
-2026-03-17 20:53:55,Rusia_TASS,EU to unveil Russian oil ban plan on April 15 — Szijjarto,Comercio/Petroleo,-0.5574
-2026-03-17 20:53:55,Rusia_TASS,NATO to hardly provide US with military aid in operation against Iran — former assistant,Conflicto Medio Oriente,0.0
-2026-03-17 20:53:55,Rusia_TASS,"If Iran war drags on till June, 45 million people could face starvation — UN",Conflicto Medio Oriente,-0.6808
-2026-03-17 20:53:55,Rusia_TASS,Goal of US-Israel operation in Iran remains unclear — EU Council chief,Conflicto Medio Oriente,-0.25
-2026-03-17 20:53:55,Rusia_TASS,Trump postpones visit to China due to lack of strong negotiating position — expert,General,-0.0258
-2026-03-17 20:53:55,Rusia_TASS,Europe needs time to start asking for Russian gas again — Dmitriev,OTAN/UE,0.0
-2026-03-17 20:53:55,Rusia_TASS,EU-US relations once again on brink of collapse over Middle East situation — newspaper,OTAN/UE,-0.4939
-2026-03-17 20:53:55,Rusia_TASS,Iranian envoy denies reports that new supreme leader undergoing treatment in Russia,Conflicto Medio Oriente,0.2023
-2026-03-17 20:53:55,Rusia_TASS,"UK, EU no longer hide their anti-Trump sentiments — Russian envoy",OTAN/UE,-0.1734
-2026-03-17 20:53:55,Rusia_TASS,Trump naive to believe he could choose Iran’s supreme leader — ambassador to Russia,Conflicto Medio Oriente,0.3612
-2026-03-17 20:53:55,Rusia_TASS,EU offers Kiev funds to repair Druzhba oil pipeline,Comercio/Petroleo,0.0
-2026-03-17 20:53:55,Rusia_TASS,Iran delivers new strikes against enemy targets — news agency,Conflicto Medio Oriente,-0.7184
-2026-03-17 20:53:55,Rusia_TASS,No disruption in Iran’s oil exports after US strikes on Kharg Island — Iranian parliament,Comercio/Petroleo,-0.1002
-2026-03-17 20:53:55,Rusia_TASS,Martial law in Strait of Hormuz prevents US from supplying its bases — Iranian ambassador,Conflicto Medio Oriente,0.0772
-2026-03-17 20:53:55,Rusia_TASS,Letter by top Iranian security official claimed dead by Israel emerges on social media,Conflicto Medio Oriente,-0.2732
-2026-03-17 20:53:55,Rusia_TASS,Regional war with Iran will not diminish importance of global conflict in Ukraine — expert,Conflicto Medio Oriente,-0.8079
-2026-03-17 20:53:55,Rusia_TASS,Kiev is dragging out conflict with Russia as it may have share of EU profits — MP,OTAN/UE,0.4215
-2026-03-17 20:53:55,Rusia_TASS,Press review: Tehran pursues attrition as Trump delays China visit amid Iran tensions,Conflicto Medio Oriente,-0.4019
-2026-03-17 20:53:55,Rusia_TASS,"Trump wanted Iranian military to bow to him, but this scenario failed — ambassador",Conflicto Medio Oriente,-0.6652
-2026-03-17 20:53:55,Rusia_TASS,Iranian lawmaker threatens to turn Kharg Island into 'invaders’ cemetery',Conflicto Medio Oriente,-0.3818
-2026-03-17 20:53:55,Rusia_TASS,Euro exchange rate on Forex exceeds 94 rubles first since January,OTAN/UE,0.0
+date,bloque,title,tema,sentiment_score,impacto,fuente,titulo,narrativa
+2026-03-17 20:33:48,Occidente_USA,"Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course'",Conflicto Medio Oriente,-0.6597,,,,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,‘US distraction in the Middle East is in China’s interest’,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,"Israel bombs central Beirut, killing 6, strafes south, east Lebanon",
+2026-03-18 09:03:50,BRICS+,,Conflicto,-0.5,8.0,Al Jazeera,Iran war: What is happening on day 19 of US-Israel attacks?,
+2026-03-18 09:03:50,BRICS+,,Conflicto,-0.5,3.0,Al Jazeera,Iran launches ‘revenge’ missile attack on Israel after assassinations,
+2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,3.0,Al Jazeera,Israeli air strike flattens residential building in Beirut,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,"Qatar can keep goods flowing amid tensions, customs chief says",
+2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,8.0,Al Jazeera,"Iran fires missiles, drones across Gulf, region remains in war crosshairs",
+2026-03-18 09:03:50,OTAN/G7,,Economía,0.1,3.0,Al Jazeera,"Venezuela defeat USA, win first World Baseball Classic championship",
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Cuba restores power after 29-hour blackout amid US oil blockade,
+2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,8.0,Al Jazeera,Trump confirms meeting with China’s Xi Jinping delayed as war on Iran rages,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Actor Sean Penn gifted a special ‘Oscar’ by Ukraine’s railway company,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Trump administration defends Anthropic blacklisting in US court,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Araghchi: Iran’s system holds despite targeted leaders,
+2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,8.0,Al Jazeera,‘This is America’s war’: Iran’s Foreign Minister Araghchi,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Killing of Larijani will not destabilise Iranian political system: Minister,
+2026-03-18 09:03:50,BRICS+,,Conflicto,-0.5,3.0,Al Jazeera,Drone attacks hit near US embassy in Baghdad,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Experts discuss ‘Israeli strategy’ in killing of senior Iran official Ali L,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,"‘We’ll be doing something with Cuba very soon’, Trump says",
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,"Iran allowing more ships through Strait of Hormuz, data suggest",
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Ukraine sends 201 military experts to counter Iranian drones in the Gulf,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Xi Jinping’s anticorruption drive sweeps up senior Chinese military chiefs,
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,"Who is Joe Kent, and why did he resign as Trump’s counterterrorism chief?",
+2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,8.0,Al Jazeera,"Larijani’s warning to US, Israel before his killing",
+2026-03-18 09:03:50,BRICS+,,Economía,0.1,3.0,Al Jazeera,Burning debris from missile interceptions showers Dubai,
+2026-03-18 09:03:50,BRICS+,,Conflicto,0.1,8.0,Al Jazeera,"Iran war live: Tehran mourns Larijani, Soleimani; 2 killed in Israel",
+2026-03-18 09:17:06,MENA/Irán,,Militar,0.1149999999999999,6.1,Occidente (BBC),"Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course'",Eje de Resistencia (Irán)
+2026-03-18 09:17:06,MENA/Irán,,Diplomacia,0.4166666666666667,9.2,Occidente (BBC),Death of Ali Larijani deepens crisis at heart of Iran's leadership,Eje de Resistencia (Irán)
+2026-03-18 09:17:06,MENA/Irán,,Diplomacia,0.0,5.0,Occidente (BBC),Total repression and air strikes bring unrelenting dread for Iranians,Eje de Resistencia (Irán)
+2026-03-18 09:17:06,Eurasia,,Diplomacia,0.0,5.0,Occidente (BBC),Spanish king reopens debate on conquest of Mexico by acknowledging 'abuse',Neutral / Global
+2026-03-18 09:17:06,Global South,,Diplomacia,0.0249999999999999,2.2,Occidente (BBC),"Air strike hit Kabul rehab centre as patients ate dinner, survivor tells BBC",Neutral / Global
+2026-03-18 09:17:06,Global South,,Diplomacia,-0.1166666666666666,3.2,Occidente (BBC),Chile's president begins building border barrier less than week into term,Neutral / Global
+2026-03-18 09:17:06,Global South,,Diplomacia,0.1,3.0,Occidente (BBC),India's cheap weight-loss drugs could reshape global obesity fight,Neutral / Global
+2026-03-18 09:17:06,Occidente,,Militar,0.0,5.0,Occidente (BBC),Italy warns Russian tanker could explode in Mediterranean at any time,Neutral / Global
+2026-03-18 09:17:06,Global South,,Diplomacia,0.05,2.5,Occidente (BBC),US Attorney General Bondi formally summoned to Congress in Epstein case,Neutral / Global
+2026-03-18 09:17:06,Occidente,,Diplomacia,0.0,5.0,Occidente (BBC),Water supply cut in Moldova after oil spill blamed on Russian strike in Ukraine,Neutral / Global
+2026-03-18 09:17:06,Global South,,Diplomacia,-0.3,5.0,Occidente (BBC),Pakistan air strike kills at least 100 at Kabul drug rehab centre,Neutral / Global
+2026-03-18 09:17:06,Global South,,Diplomacia,0.7,9.0,Occidente (BBC),And the burger goes to... Michael B Jordan marks Oscars win at In-N-Out,Neutral / Global
+2026-03-18 09:17:06,Global South,,Diplomacia,-0.5,7.0,Occidente (BBC),Utah mother who wrote book about grief found guilty of poisoning husband,Neutral / Global
+2026-03-18 09:17:06,Global South,,Diplomacia,0.1333333333333333,3.3,Occidente (BBC),"Aspiring female Zambian politicians were asked for sexual favours, official says",Neutral / Global
+2026-03-18 09:17:06,Global South,,Diplomacia,0.1666666666666666,3.7,Occidente (BBC),Sri Lanka declares Wednesdays off as Asian countries try to conserve fuel,Neutral / Global
+2026-03-18 09:17:06,MENA/Irán,,Diplomacia,0.1,6.0,Occidente (BBC),Iranian security chief Ali Larijani killed in air strike,Eje de Resistencia (Irán)
+2026-03-18 09:17:06,Eurasia,,Diplomacia,0.0,5.0,Occidente (BBC),What have US allies and China said about sending ships to the Strait of Hormuz?,Pro-China
+2026-03-18 09:17:06,MENA/Irán,,Militar,0.0833333333333333,5.8,Occidente (BBC),Surge in US gas prices deepens political peril for Trump over Iran,Eje de Resistencia (Irán)
+2026-03-18 09:17:06,MENA/Irán,,Militar,0.0,5.0,Occidente (BBC),Will the Iran war squeeze India's piped gas next?,Eje de Resistencia (Irán)
+2026-03-18 09:17:06,Global South,,Militar,0.1499999999999999,3.5,Occidente (BBC),'Fire came from the sky and burned them' - life on the brink of civil war in South Sudan,Neutral / Global
+2026-03-18 09:17:06,Occidente,,Militar,-0.0733333333333333,5.7,Occidente (BBC),Wary allies show there's no quick fix to Trump's Iran crisis,Eje de Resistencia (Irán)
+2026-03-18 09:17:06,MENA/Irán,,Diplomacia,-0.1333333333333333,6.3,Occidente (BBC),"'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",Neutral / Global
+2026-03-18 09:17:06,MENA/Irán,,Diplomacia,0.1363636363636363,6.4,Occidente (BBC),"Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",Eje de Resistencia (Irán)
+2026-03-18 09:17:06,MENA/Irán,,Diplomacia,0.0,5.0,Occidente (BBC),Why did only two Iranian football players stay in Australia?,Eje de Resistencia (Irán)
+2026-03-18 09:17:06,Occidente,,Diplomacia,0.25,7.5,Occidente (BBC),Watch: Reunion resident gets close to lava from erupting volcano,Neutral / Global
+2026-03-18 09:17:06,Global South,,Militar,0.0399999999999999,2.4,Occidente (BBC),"Historic firsts, emotional speeches, and a tie: Watch the top Oscars moments",Neutral / Global
+2026-03-18 09:17:06,Eurasia,,Diplomacia,0.2,7.0,Occidente (BBC),Mexico City breaks Guinness Record with giant football training session,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0027777777777777,5.0,Rusia (TASS/Mirror),"Russia’s first robotic, unmanned systems test center opens in Moscow",Neutral / Global
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.375,8.8,Rusia (TASS/Mirror),Tehran interested in peace proposals involving damage compensation — top diplomat,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Occidente,,Militar,-0.175,6.8,Rusia (TASS/Mirror),Ukraine’s military attacks Russia’s Belgorod Region with over 80 UAVs in past day,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.3,8.0,Rusia (TASS/Mirror),Mercedes-Benz registers 'Mercedes-Benz' trademark in Russia,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Moscow Polytechnic University develops unmanned copter parts for mass production,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0833333333333333,5.8,Rusia (TASS/Mirror),Russian stocks up as main trading session opens,Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),Iraq has resumed oil exports through Turkish port of Ceyhan — agency,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Militar,0.05,5.5,Rusia (TASS/Mirror),IN BRIEF: Iran’s Bushehr Nuclear Power Plant comes under attack,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.25,7.5,Rusia (TASS/Mirror),Russian Pacific Fleet ships depart from Indian port of Visakhapatnam,Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,-0.3,5.0,Rusia (TASS/Mirror),MOEX Index up as morning trading session opens,Neutral / Global
+2026-03-18 09:17:07,MENA/Irán,,Militar,0.0,5.0,Rusia (TASS/Mirror),Iran to revise rules for vessels passing through Strait of Hormuz after war — MFA,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.2866666666666667,7.9,Rusia (TASS/Mirror),Top security official’s death will not affect Iran’s political system — top diplomat,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Global South,,Diplomacia,0.2,4.0,Rusia (TASS/Mirror),"Youth eyes moving to Arctic counting on economic, career prospects — expert",Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,-0.125,3.2,Rusia (TASS/Mirror),Investment in Vorkuta coal mining development planned at $694 million,Neutral / Global
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.25,7.5,Rusia (TASS/Mirror),More than a dozen US-made MQ-9 Reaper drones lost in operations against Iran — TV,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Global South,,Diplomacia,0.1666666666666666,3.7,Rusia (TASS/Mirror),Top US diplomat dismisses report of plans to remove Cuban president from power,Neutral / Global
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.125,6.2,Rusia (TASS/Mirror),"Talks on Ukraine could take place in Geneva, but it is not top choice — Russian envoy",Neutral / Global
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.1125,6.1,Rusia (TASS/Mirror),Ukraine to lose conflict due to shortage of soldiers — prisoner,Neutral / Global
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.2249999999999999,7.2,Rusia (TASS/Mirror),USAID Inspector General’s office uncovers violations in $26 billion aid provision to Kiev,Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,-0.0625,2.6,Rusia (TASS/Mirror),"Foreign ministers of Arab, Islamic countries to hold meeting in Riyadh on March 18",Neutral / Global
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0999999999999999,6.0,Rusia (TASS/Mirror),"One Russian woman killed, 11 more Russians injured in accident in Phuket — newspaper",Neutral / Global
+2026-03-18 09:17:07,Global South,,Militar,0.3999999999999999,6.0,Rusia (TASS/Mirror),"More than 500 ATACMS, Storm Shadow, SCALP missiles used by Kiev since start of SMO",Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,0.2,4.0,Rusia (TASS/Mirror),Former Spanish Prime Minister supports stabilization of situation in Venezuela,Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),US intends to further ease sanctions on Venezuelan oil — Bloomberg,Neutral / Global
+2026-03-18 09:17:07,MENA/Irán,,Militar,-0.2,7.0,Rusia (TASS/Mirror),"Four killed, seven wounded in Israeli attack on Beirut — health ministry",Neutral / Global
+2026-03-18 09:17:07,Global South,,Militar,-0.1,3.0,Rusia (TASS/Mirror),Warsaw District Court to continue hearing case on extradition of archaeologist Butyagin,Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),Gasoline prices in US reach highest level since autumn 2023 — association,Neutral / Global
+2026-03-18 09:17:07,MENA/Irán,,Militar,0.0,5.0,Rusia (TASS/Mirror),Strait of Hormuz to only be opened after conflict ends — Iranian authorities,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Putin to open several facilities in Crimea via video link,Pro-Rusia
+2026-03-18 09:17:07,MENA/Irán,,Militar,-0.0625,5.6,Rusia (TASS/Mirror),Iranian president vows to avenge death of Larijani,Anti-Rusia
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,-0.125,6.2,Rusia (TASS/Mirror),"Iranian authorities confirm death of Larijani, appoint successors",Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),EU agrees on 90 billion euro loan to Kiev breaking Hungary's veto — Bulgarian radio,Neutral / Global
+2026-03-18 09:17:07,MENA/Irán,,Militar,0.0,5.0,Rusia (TASS/Mirror),Israeli army no longer needs political approval to eliminate senior Iranian officials — TV,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Occidente,,Militar,0.0,5.0,Rusia (TASS/Mirror),UAE may join US efforts to protect Strait of Hormuz — Reuters,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,MENA/Irán,,Militar,-0.1,6.0,Rusia (TASS/Mirror),US spending on war with Iran could exceed trillion dollars — The Intercept,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Trump says could have decided to withdraw from NATO without Congress,Pro-Occidente
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),EU experts arriving in Ukraine to assess Druzhba pipeline damage,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.05,5.5,Rusia (TASS/Mirror),Delo Group expects cargo traffic growth via Far East,Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),"Czech, Slovak officials to discuss expert examination of Druzhba oil pipeline",Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),Peruvian Prime Minister Miralles vacates office,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.0518518518518518,5.5,Rusia (TASS/Mirror),Russian stock market closes in the red — market reports,Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,0.4,6.0,Rusia (TASS/Mirror),Georgian patriarch died at age of 93 — TV,Neutral / Global
+2026-03-18 09:17:07,Occidente,,Diplomacia,1.0,15.0,Rusia (TASS/Mirror),Conflict in Ukraine would have ended in day without Washington's help to Kiev — Trump,Pro-Occidente
+2026-03-18 09:17:07,Global South,,Diplomacia,0.00875,2.1,Rusia (TASS/Mirror),SAS to cancel over 100 flights in Norway this week due to fuel prices,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Militar,0.1080357142857142,6.1,Rusia (TASS/Mirror),"Lavrov, Fidan discuss Iran war, energy projects — Russian Foreign Ministry",Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Global South,,Diplomacia,0.1,3.0,Rusia (TASS/Mirror),US intends to take measures in relation to Cuba soon — Trump,Neutral / Global
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0069444444444444,5.1,Rusia (TASS/Mirror),German subsidiary of Russian pharma company announces bankruptcy due to sanctions,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Russian Finance Ministry to hold federal loan bonds auctions on March 18,Neutral / Global
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),US allies reluctant to get involved in operation against Iran — Trump,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Trump says Europe unwilling to help US with Iran after American support regarding Ukraine,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Global South,,Diplomacia,0.1649999999999999,3.6,Rusia (TASS/Mirror),Tanker near UAE coast damaged due to air defense operation,Neutral / Global
+2026-03-18 09:17:07,MENA/Irán,,Militar,0.0,5.0,Rusia (TASS/Mirror),Iranian soldiers write messages on missiles telling US to get out of Middle East,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0866666666666666,5.9,Rusia (TASS/Mirror),Middle East share of Russian wheat exports grows to 37% in July-February,Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),France to never participate in operations to reopen Strait of Hormuz — President Macron,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.125,6.2,Rusia (TASS/Mirror),"Russia, Turkey confirm bilateral intentions of maintaining high-level contacts — ministry",Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),"Global economy cannot do without Russian energy, AfD leader says",Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),Power restored to one-third of Havana after nationwide outage,Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),"Aeroflot to add 43 extra flights to Thailand, Maldives, Sri Lanka",Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,0.1333333333333333,3.3,Rusia (TASS/Mirror),Spain to release up to 11.5 mln barrels from strategic oil reserves,Neutral / Global
+2026-03-18 09:17:07,MENA/Irán,,Militar,0.125,6.2,Rusia (TASS/Mirror),"Pentagon says Iran's space program ""destructed""",Eje de Resistencia (Irán)
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,-0.025,5.2,Rusia (TASS/Mirror),Slovak PM Fico predicts worsening global oil market situation amid Iran conflict,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.0625,5.6,Rusia (TASS/Mirror),"No EU money for Ukraine until Druzhba oil flows resume, Orban says",Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,0.4499999999999999,6.5,Rusia (TASS/Mirror),Real effective exchange rate of ruble up 0.7% in February — Central Bank,Neutral / Global
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),EU intends to have Hungary’s ban lifted at forthcoming summit,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.0988095238095238,6.0,Rusia (TASS/Mirror),Russia deeply concerned about growing tensions around Cuba — Foreign Ministry,Neutral / Global
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.02,5.2,Rusia (TASS/Mirror),"Kiev seeks to further upend oil markets, create utter chaos globally — senator",Pro-Occidente
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Bank of Russia raises dollar rate to 81.91 rubles for March 18,Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,0.25,4.5,Rusia (TASS/Mirror),"RTS Index falls below 1,100 points for first time since January 16",Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,-0.0625,2.6,Rusia (TASS/Mirror),Kenya may face fertilizer shortage due to conflict in the Middle East — radio station,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.1,6.0,Rusia (TASS/Mirror),Russian industry fully covers road building sector needs — minister,Neutral / Global
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,-0.0062499999999999,5.1,Rusia (TASS/Mirror),Rubio orders US diplomats to influence other nations to take action against Iran — TV,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.25,7.5,Rusia (TASS/Mirror),"Szijjarto scoffs at EU, Zelensky for playing dumb about Druzhba pipe",Neutral / Global
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.2,7.0,Rusia (TASS/Mirror),Trump allies fear loss of control over situation around Iran,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.003125,5.0,Rusia (TASS/Mirror),"Tankers start crossing Hormuz, White House says",Eje de Resistencia (Irán)
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),FIFA hopes to see Iranian national team playing at 2026 World Cup,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.1666666666666666,6.7,Rusia (TASS/Mirror),EU should return Russian oil to Europe — Szijjarto,Anti-China
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0666666666666666,5.7,Rusia (TASS/Mirror),Russia capable of increasing flexibility of energy market in Asian countries — expert,Neutral / Global
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.125,6.2,Rusia (TASS/Mirror),Euro exchange rate exceeds 95 rubles on interbank market first since January,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.025,5.2,Rusia (TASS/Mirror),"Russian, Indian diplomats discuss UNSC reform, current global developments",Neutral / Global
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.35,8.5,Rusia (TASS/Mirror),EU provides Ukraine with full terms for joining union,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.3525,8.5,Rusia (TASS/Mirror),More than 20 medical devices undergoing trials in Russia — PM,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.125,6.2,Rusia (TASS/Mirror),"Russian Space Systems comes up with over 1,000 inventions since 2022",Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Russia holds ceremony for Paralympic athletes on Red Square,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Russian plasma engine promises to make interplanetary travel magnitudes faster — expert,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.0811111111111111,5.8,Rusia (TASS/Mirror),Russian foreign trade surplus down to $6.6 bln in January — Central Bank,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.1611111111111111,6.6,Rusia (TASS/Mirror),Azerbaijani-Russian trade turnover down almost by half in January-February,Neutral / Global
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Eurasian Development Bank projects oil prices in $75-85 per barrel range in 2026,Neutral / Global
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Putin pardons 23 women — Human Rights Council head,Pro-Rusia
+2026-03-18 09:17:07,Occidente,,Militar,0.0571428571428571,5.6,Rusia (TASS/Mirror),Russian troops liberate two communities in Ukraine operation over past day — top brass,Neutral / Global
+2026-03-18 09:17:07,Occidente,,Militar,0.1833333333333333,6.8,Rusia (TASS/Mirror),US intelligence warned of risk of Iran striking Arab countries — Reuters,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,MENA/Irán,,Diplomacia,0.0699999999999999,5.7,Rusia (TASS/Mirror),White House launched operation in Iran without clear strategy — NYT,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Eurasia,,Diplomacia,0.1363636363636363,6.4,Rusia (TASS/Mirror),Iran in talks with FIFA on relocating team's 2026 World Cup matches from US to Mexico,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Global South,,Diplomacia,0.25,4.5,Rusia (TASS/Mirror),Air temperatures in Moscow break three century-old records,Neutral / Global
+2026-03-18 09:17:07,Global South,,Diplomacia,0.0,2.0,Rusia (TASS/Mirror),Zelensky finds excuses to sabotage diplomacy after every trip to London — politician,Neutral / Global
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),EU to unveil Russian oil ban plan on April 15 — Szijjarto,Neutral / Global
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.1305555555555555,6.3,Rusia (TASS/Mirror),NATO to hardly provide US with military aid in operation against Iran — former assistant,Pro-Occidente
+2026-03-18 09:17:07,MENA/Irán,,Militar,-0.5,10.0,Rusia (TASS/Mirror),"If Iran war drags on till June, 45 million people could face starvation — UN",Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Occidente,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Zelensky promises in letter to EC to repair Druzhba pipeline within 1-1.5 months,Neutral / Global
+2026-03-18 09:17:07,Occidente,,Diplomacia,-0.0125,5.1,Rusia (TASS/Mirror),Goal of US-Israel operation in Iran remains unclear — EU Council chief,Eje de Resistencia (Irán)
+2026-03-18 09:17:07,Eurasia,,Diplomacia,-0.0722222222222222,5.7,Rusia (TASS/Mirror),Over half of Russians long for days of USSR — pollster,Neutral / Global
+2026-03-18 09:17:19,Global South,,Diplomacia,0.0,2.0,India (Times of India),Assam MP Pradyut Bordoloi joins BJP; CM hints at recommending him for polls,Neutral / Global
+2026-03-18 09:17:19,Global South,,Diplomacia,0.6000000000000001,8.0,India (Times of India),"‘Fly to India for free’: US uses Taj Mahal in ‘self-deportation’ post with $2,600 incentive",Neutral / Global
+2026-03-18 09:17:19,Eurasia,,Militar,-0.1270833333333333,6.3,India (Times of India),30 mn barrels in a week! India grabs more Russian crude amid US-Iran war,Pro-China
+2026-03-18 09:17:19,Global South,,Diplomacia,0.1493371212121212,3.5,India (Times of India),"Dhoni to hand WK gloves to Samson, captaincy next? Kumble on CSK plan",Neutral / Global
+2026-03-18 09:17:19,Occidente,,Militar,0.6416666666666667,11.4,India (Times of India),Google AI on the book that influenced him most: Every student must read,Neutral / Global
+2026-03-18 09:17:19,MENA/Irán,,Diplomacia,0.1666666666666666,6.7,India (Times of India),Watch: Flashes in sky above central Israel in latest Iran cluster munition strike,Eje de Resistencia (Irán)
+2026-03-18 09:17:19,MENA/Irán,,Diplomacia,0.1,6.0,India (Times of India),"US hits Iran near Strait of Hormuz with 5,000-pound 'bunker buster' bomb — what makes it stand out",Eje de Resistencia (Irán)
+2026-03-18 09:17:19,Global South,,Diplomacia,-0.10625,3.1,India (Times of India),Zerodha founder Nithin Kamath says I don't use internet banking apps; here's why,Neutral / Global
+2026-03-18 09:17:19,Global South,,Diplomacia,-0.005,2.1,India (Times of India),MP: Facebook lover bludgeons woman to death over marriage pressure,Neutral / Global
+2026-03-18 09:17:19,Global South,,Militar,-0.25,4.5,India (Times of India),"Nasa warns airplane-sized asteroid 2026 FB zooming past Earth at 34,000 mph today",Neutral / Global
+2026-03-18 09:17:19,Global South,,Diplomacia,0.1454545454545454,3.5,India (Times of India),'Two words' at the centre of Microsoft's dispute with Amazon &amp; OpenAI in a $50 bn deal,Anti-China
+2026-03-18 09:17:19,Global South,,Diplomacia,0.1583333333333333,3.6,India (Times of India),LPG crisis: Centre pushes states to fast-track switch to PNG amid Hormuz disruption,Neutral / Global
+2026-03-18 09:17:19,Global South,,Militar,0.3,5.0,India (Times of India),"Indian IT stocks surge! Infosys, TCS, Wipro rise up to 4%; why are they rallying?",Neutral / Global
+2026-03-18 09:17:19,Occidente,,Diplomacia,0.0,5.0,India (Times of India),'Riyan Parag yet to establish': Chopra’s blunt take on RR’s ‘inexperienced’ squad,Neutral / Global
+2026-03-18 09:17:19,Eurasia,,Diplomacia,0.0442857142857142,5.4,India (Times of India),"'When HC can't decide correct answer, how can students?': SC on law officer recruitment question",Neutral / Global
+2026-03-18 09:17:19,Global South,,Diplomacia,0.0932142857142857,2.9,India (Times of India),Location vs Budget: How homebuyers can find the right balance,Neutral / Global
+2026-03-18 09:17:19,Global South,,Diplomacia,0.0,2.0,India (Times of India),"'Will not succumb to Delhi': TVK claims Vijay rejected Tamil Nadu CM post, 50% seats",Neutral / Global
+2026-03-18 09:17:19,Global South,,Diplomacia,0.1857142857142857,3.9,India (Times of India),'Please don't share spoilers': Aditya Dhar requests everyone ahead of 'Dhurandhar 2' release,Neutral / Global
+2026-03-18 09:17:19,Global South,,Diplomacia,-0.2499999999999999,4.5,India (Times of India),3 kids among 9 killed in massive fire at residential building in Delhi's Palam,Neutral / Global
+2026-03-18 09:17:19,Global South,,Diplomacia,0.0249999999999999,2.2,India (Times of India),Cuba President guarantees 'unbreakable resistance' after Trump's takeover claim,Eje de Resistencia (Irán)
+2026-03-18 09:17:19,MENA/Irán,,Militar,0.1458333333333333,6.5,India (Times of India),"LPG cylinder rate, petrol, diesel price today: Check city-wise list of latest prices",Eje de Resistencia (Irán)
+2026-03-18 09:17:19,Occidente,,Diplomacia,0.3333333333333333,8.3,India (Times of India),Caitlin Clark surprised by Angel Reese gesture during FIBA qualifier,Neutral / Global
+2026-03-18 09:17:19,MENA/Irán,,Militar,0.04,5.4,India (Times of India),Watch: Israeli strike in Beirut reduces building to rubble in seconds,Neutral / Global
+2026-03-18 09:17:19,Occidente,,Militar,0.0375,5.4,India (Times of India),A look at 'Haj Qasem' missile Iran used for the first time against Israel,Eje de Resistencia (Irán)
+2026-03-18 09:17:19,Global South,,Diplomacia,0.0,2.0,India (Times of India),‘Call me’: Lalit Modi reacts to Kavya Maran after Abrar Ahmed row,Neutral / Global
+2026-03-18 09:17:19,Global South,,Militar,-0.125,3.2,India (Times of India),‘Cannot understand the sensitivity?’ Humpy breaks silence on Candidates call,Neutral / Global
+2026-03-18 09:17:19,Occidente,,Militar,-0.0395833333333333,5.4,India (Times of India),US-Iran war: How the LPG cylinder has become the face of Middle East mayhem's impact on India,Eje de Resistencia (Irán)
+2026-03-18 09:17:19,Global South,,Diplomacia,0.1051948051948051,3.1,India (Times of India),"No charge on 60% seats, flyers with same PNR to sit together: DGCA's new rules",Neutral / Global
+2026-03-18 09:17:19,Global South,,Diplomacia,-0.15,3.5,India (Times of India),"After harassment, 10-man gang follows Class X girl home, ransacks house, damages vehicles in TN",Neutral / Global
+2026-03-18 09:17:19,MENA/Irán,,Militar,0.0,5.0,India (Times of India),‘We need ceasefire’: Finland President calls for talks as Iran war rages on; sees role for India,Eje de Resistencia (Irán)
+2026-03-18 09:17:19,Global South,,Diplomacia,-0.1666666666666666,3.7,India (Times of India),Watch: Canadian PM and Finland President discuss ‘Dhurandhar’ during jog in London,Neutral / Global
+2026-03-18 09:17:19,Global South,,Militar,0.25,4.5,India (Times of India),‘Starlink now available in Kuwait!’: Musk confirms satellite internet rollout amid Middle East war,Neutral / Global
+2026-03-18 09:17:19,Global South,,Diplomacia,-0.3333333333333333,5.3,India (Times of India),EV on charge &amp; 10 LPG cylinders: Deadly chain reaction behind Indore house fire that killed 7,Neutral / Global
+2026-03-18 09:17:19,Global South,,Militar,0.0166666666666666,2.2,India (Times of India),'Disease in Indian cricket': Ashwin raises concerns over fan armies 'ecosystem',Neutral / Global
+2026-03-18 09:17:19,MENA/Irán,,Militar,-0.09375,5.9,India (Times of India),Hormuz chokehold forces oil reroute via Red Sea — but how long can this lifeline hold?,Anti-China
+2026-03-18 09:17:19,MENA/Irán,,Militar,0.0833333333333333,5.8,India (Times of India),"Injuries hit IPL pace units: KKR, SRH, RCB face selection headaches",Eje de Resistencia (Irán)
+2026-03-18 09:17:19,Global South,,Diplomacia,0.0,2.0,India (Times of India),22 Indian vessels still stuck in Strait of Hormuz,Neutral / Global
+2026-03-18 09:17:19,Global South,,Diplomacia,0.3370370370370371,5.4,India (Times of India),YouTuber Ms Rachel’s 1-year-old daughter’s advanced vocabulary sparks debate among parents,Neutral / Global
+2026-03-18 09:17:19,Global South,,Militar,-0.14375,3.4,India (Times of India),Mumbai court rejects BMC mayor Ritu Tawde’s discharge plea in 2016 teacher assault case,Neutral / Global
+2026-03-18 09:17:19,MENA/Irán,,Diplomacia,-0.2,7.0,India (Times of India),'Was at his daughter’s house': Inside the strike that killed Iran security chief Larijani,Eje de Resistencia (Irán)
+2026-03-18 09:24:43,MENA/Irán,,Diplomacia,0.28409090909090906,7.8,Rusia (TASS/Mirror),Iran’s nuclear weapons issue depends on new leader’s position — top diplomat,Eje de Resistencia (Irán)
+2026-03-18 09:24:43,Eurasia,,Diplomacia,0.0,5.0,Rusia (TASS/Mirror),Middle East escalation to hit global energy security — China’s envoy,Pro-China
