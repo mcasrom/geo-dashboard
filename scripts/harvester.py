@@ -4,7 +4,10 @@ from textblob import TextBlob
 from datetime import datetime
 import os
 import yfinance as yf
+import sqlite3
 
+# CONFIGURACIÓN
+DB_PATH = "/home/dietpi/geopol_dashboard/data/geopol.db"
 SOURCES = {
     'Occidente (Reuters)': 'https://www.reutersagency.com/feed/?best-topics=world',
     'Rusia (TASS)': 'https://tass.com/rss/v2.xml', 
@@ -13,53 +16,46 @@ SOURCES = {
     'Irán (PressTV)': 'https://www.presstv.ir/Default/RSS'
 }
 
-def analyze_narrative(text):
-    text = text.lower()
-    if any(x in text for x in ['nato', 'biden', 'hegemony', 'imperialism']): return "Narrativa Crítica Occidente"
-    if any(x in text for x in ['putin', 'aggression', 'invasion', 'sanctions']): return "Narrativa Conflicto Rusia"
-    if any(x in text for x in ['taiwan', 'sovereignty', 'xi jinping']): return "Eje Asia-Pacífico"
-    if any(x in text for x in ['iran', 'tehran', 'resistance', 'zionist']): return "Eje Resistencia (MENA)"
-    return "Estándar / Informativo"
+def get_market_intel():
+    try:
+        # ^VIX: Pánico | DX-Y.NYB: Dólar | BZ=F: Brent
+        tickers = {"brent": "BZ=F", "vix": "^VIX", "dxy": "DX-Y.NYB"}
+        data = yf.download(list(tickers.values()), period="1d", interval="1m")['Close'].iloc[-1]
+        return round(data[tickers['brent']], 2), round(data[tickers['vix']], 2), round(data[tickers['dxy']], 2)
+    except: return 0.0, 0.0, 0.0
 
 def run_harvester():
-    csv_path = "/home/dietpi/geopol_dashboard/data/geopol_data.csv"
-    os.makedirs("/home/dietpi/geopol_dashboard/data", exist_ok=True)
+    os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
+    brent, vix, dxy = get_market_intel()
     
-    # Mercados
-    try:
-        brent = round(yf.Ticker("BZ=F").fast_info['last_price'], 2)
-        gold = round(yf.Ticker("GC=F").fast_info['last_price'], 2)
-    except: brent, gold = 0.0, 0.0
-
-    collected = []
+    new_entries = []
     for name, url in SOURCES.items():
         feed = feedparser.parse(url)
-        for entry in feed.entries:
-            title = entry.title
-            sent = TextBlob(title).sentiment.polarity
-            
-            # Bloque
-            bloque = "Occidente" if "Reuters" in name else "Eurasia" if ("TASS" in name or "SCMP" in name) else "MENA" if "Al Jazeera" in name or "PressTV" in name else "Otros"
-            
-            collected.append({
+        for e in feed.entries:
+            sent = TextBlob(e.title).sentiment.polarity
+            new_entries.append({
                 'date': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                'bloque': bloque,
+                'bloque': "Occidente" if "Reuters" in name else "Eurasia" if ("TASS" in name or "SCMP" in name) else "MENA",
                 'sentiment_score': sent,
                 'impacto': round(abs(sent) * 10, 1) + 2,
                 'fuente': name,
-                'titulo': title,
-                'narrativa': analyze_narrative(title),
-                'brent_price': brent,
-                'gold_price': gold
+                'titulo': e.title,
+                'brent': brent, 'vix': vix, 'dxy': dxy
             })
 
-    df_new = pd.DataFrame(collected)
-    if os.path.exists(csv_path):
-        df_old = pd.read_csv(csv_path)
-        pd.concat([df_old, df_new]).drop_duplicates(subset=['titulo']).tail(3000).to_csv(csv_path, index=False)
-    else:
-        df_new.to_csv(csv_path, index=False)
-    print(f"SITREP OK. Brent: ${brent}")
+    df_new = pd.DataFrame(new_entries)
+    
+    # GUARDAR EN SQLITE (No duplica noticias por título)
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        # Cargamos lo existente para no duplicar
+        df_old = pd.read_sql("SELECT * FROM SITREP", conn)
+        df_final = pd.concat([df_old, df_new]).drop_duplicates(subset=['titulo']).tail(5000)
+        df_final.to_sql("SITREP", conn, if_exists="replace", index=False)
+    except:
+        df_new.to_sql("SITREP", conn, if_exists="replace", index=False)
+    conn.close()
+    print(f"SITREP DB Actualizada. VIX: {vix} | DXY: {dxy}")
 
 if __name__ == "__main__":
     run_harvester()
